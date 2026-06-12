@@ -1,9 +1,12 @@
-# Mapa de automoviles activos por municipio en Colombia
+# Grafica automoviles activos por municipio en Colombia.
 #
-# Este script asume que los archivos estan en el mismo directorio:
-# - CRECIMIENTO_DEL_PARQUE_AUTOMOTOR_RUNT2.0_20260612.csv
-# - municipios_colombia.shp
-# - departamentos_colombia.shp
+# Instrucciones:
+# 1. Poner este script en el mismo directorio de los archivos:
+#    - CRECIMIENTO_DEL_PARQUE_AUTOMOTOR_RUNT2.0_20260612.csv
+#    - municipios_colombia.shp
+#    - departamentos_colombia.shp
+# 2. En R/RStudio, establecer ese directorio como working directory.
+# 3. Ejecutar: source("graficar_automoviles_municipios.R")
 
 library(sf)
 library(dplyr)
@@ -13,19 +16,31 @@ library(stringr)
 library(stringi)
 library(scales)
 
+# -------------------------------------------------------------------------
+# 1. Leer archivos desde el directorio actual
+# -------------------------------------------------------------------------
+
 archivo_runt <- "CRECIMIENTO_DEL_PARQUE_AUTOMOTOR_RUNT2.0_20260612.csv"
 archivo_municipios <- "municipios_colombia.shp"
 archivo_departamentos <- "departamentos_colombia.shp"
 
-limpiar_texto <- function(x) {
-  x %>%
-    str_to_upper() %>%
-    stri_trans_general("Latin-ASCII") %>%
-    str_replace_all("[^A-Z0-9]+", " ") %>%
-    str_squish()
+archivos_requeridos <- c(
+  archivo_runt,
+  archivo_municipios,
+  archivo_departamentos
+)
+
+faltantes <- archivos_requeridos[!file.exists(archivos_requeridos)]
+
+if (length(faltantes) > 0) {
+  stop(
+    paste0(
+      "No se encontraron estos archivos en el directorio actual: ",
+      paste(faltantes, collapse = ", ")
+    )
+  )
 }
 
-# 1. Leer datos
 runt <- read_csv(
   archivo_runt,
   locale = locale(encoding = "UTF-8"),
@@ -38,7 +53,30 @@ municipios <- st_read(archivo_municipios, quiet = TRUE) %>%
 departamentos <- st_read(archivo_departamentos, quiet = TRUE) %>%
   st_transform(4326)
 
-# 2. Filtrar automoviles activos y sumar por municipio
+# -------------------------------------------------------------------------
+# 2. Limpiar textos para cruzar RUNT con shapefile municipal
+# -------------------------------------------------------------------------
+
+limpiar_texto <- function(x) {
+  x %>%
+    str_to_upper() %>%
+    stri_trans_general("Latin-ASCII") %>%
+    str_replace_all("[^A-Z0-9]+", " ") %>%
+    str_squish()
+}
+
+normalizar_municipio <- function(depto, municipio) {
+  if_else(
+    depto == "BOGOTA D C" & municipio == "BOGOTA",
+    "BOGOTA D C",
+    municipio
+  )
+}
+
+# -------------------------------------------------------------------------
+# 3. Filtrar automoviles activos y sumar la cantidad por municipio
+# -------------------------------------------------------------------------
+
 autos_municipio <- runt %>%
   filter(
     limpiar_texto(NOMBRE_DE_LA_CLASE) == "AUTOMOVIL",
@@ -48,6 +86,7 @@ autos_municipio <- runt %>%
     CANTIDAD = as.numeric(CANTIDAD),
     depto_key = limpiar_texto(NOMBRE_DEPARTAMENTO),
     municipio_key = limpiar_texto(NOMBRE_MUNICIPIO),
+    municipio_key = normalizar_municipio(depto_key, municipio_key),
     llave = paste(depto_key, municipio_key, sep = "_")
   ) %>%
   group_by(llave, NOMBRE_DEPARTAMENTO, NOMBRE_MUNICIPIO) %>%
@@ -56,19 +95,22 @@ autos_municipio <- runt %>%
     .groups = "drop"
   )
 
-# 3. Preparar shapefile municipal para cruce
+# -------------------------------------------------------------------------
+# 4. Preparar mapa municipal y unir con datos RUNT
+# -------------------------------------------------------------------------
+
 municipios_mapa <- municipios %>%
   mutate(
     depto_key = limpiar_texto(DPTO_CNMBR),
     municipio_key = limpiar_texto(MPIO_CNMBR),
+    municipio_key = normalizar_municipio(depto_key, municipio_key),
     llave = paste(depto_key, municipio_key, sep = "_")
   )
 
-# 4. Unir datos RUNT con poligonos municipales
 mapa_autos <- municipios_mapa %>%
   left_join(autos_municipio, by = "llave")
 
-# 5. Diagnostico: municipios del RUNT que no cruzaron con el shapefile
+# Diagnostico opcional: municipios del RUNT que no cruzaron con el shapefile.
 no_encontrados <- autos_municipio %>%
   anti_join(st_drop_geometry(municipios_mapa), by = "llave") %>%
   arrange(desc(automoviles))
@@ -76,7 +118,10 @@ no_encontrados <- autos_municipio %>%
 print("Municipios del RUNT que no cruzaron con el shapefile:")
 print(no_encontrados)
 
-# 6. Mapa de todos los municipios segun cantidad de automoviles
+# -------------------------------------------------------------------------
+# 5. Graficar todos los municipios
+# -------------------------------------------------------------------------
+
 mapa_automoviles <- ggplot() +
   geom_sf(
     data = mapa_autos,
@@ -98,14 +143,17 @@ mapa_automoviles <- ggplot() +
   ) +
   labs(
     title = "Automoviles activos por municipio",
-    subtitle = "Municipios de Colombia segun cantidad de automoviles activos",
+    subtitle = "Todos los municipios disponibles en el shapefile",
     fill = "Automoviles"
   ) +
   theme_void()
 
 print(mapa_automoviles)
 
-# 7. Guardar resultado
+# -------------------------------------------------------------------------
+# 6. Guardar salidas
+# -------------------------------------------------------------------------
+
 ggsave(
   "mapa_automoviles_municipios.png",
   mapa_automoviles,
@@ -114,14 +162,11 @@ ggsave(
   dpi = 300
 )
 
-# 8. Tabla ordenada de todos los municipios con automoviles
 tabla_automoviles_municipios <- mapa_autos %>%
   st_drop_geometry() %>%
   filter(!is.na(automoviles)) %>%
   select(DPTO_CNMBR, MPIO_CNMBR, automoviles) %>%
   arrange(desc(automoviles))
-
-print(tabla_automoviles_municipios)
 
 write_csv(
   tabla_automoviles_municipios,
