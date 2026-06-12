@@ -136,7 +136,8 @@ municipios_regional <- municipios %>%
   left_join(autos_municipio, by = "llave") %>%
   mutate(
     tiene_dato_runt = if_else(is.na(automoviles), "NO", "SI"),
-    automoviles = if_else(is.na(automoviles), 0, automoviles)
+    automoviles = if_else(is.na(automoviles), 0, automoviles),
+    automoviles_mapa = if_else(automoviles == 0, NA_real_, automoviles)
   )
 
 departamentos_regional_mapa <- departamentos %>%
@@ -173,8 +174,8 @@ print(no_encontrados)
 mapa_municipios_regional_bogota <- ggplot() +
   geom_sf(
     data = municipios_regional,
-    aes(fill = automoviles),
-    color = "white",
+    aes(fill = automoviles_mapa),
+    color = "#d9d9d9",
     linewidth = 0.08
   ) +
   geom_sf(
@@ -192,6 +193,7 @@ mapa_municipios_regional_bogota <- ggplot() +
   scale_fill_viridis_c(
     option = "C",
     trans = "sqrt",
+    na.value = "white",
     labels = label_number(big.mark = ".", decimal.mark = ",")
   ) +
   labs(
