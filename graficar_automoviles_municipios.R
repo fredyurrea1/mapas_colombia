@@ -89,6 +89,14 @@ normalizar_municipio <- function(depto, municipio) {
   )
 }
 
+crear_llave_base <- function(depto, municipio) {
+  paste(
+    limpiar_texto(depto),
+    limpiar_texto(municipio),
+    sep = "_"
+  )
+}
+
 # -------------------------------------------------------------------------
 # 3. Filtrar automoviles activos y sumar la cantidad por municipio
 # -------------------------------------------------------------------------
@@ -111,12 +119,28 @@ autos_municipio <- runt %>%
     .groups = "drop"
   )
 
+autos_municipio_base <- runt %>%
+  filter(
+    limpiar_texto(NOMBRE_DE_LA_CLASE) == "AUTOMOVIL",
+    limpiar_texto(ESTADO_DEL_VEHICULO) == "ACTIVO"
+  ) %>%
+  mutate(
+    CANTIDAD = as.numeric(CANTIDAD),
+    llave_base = crear_llave_base(NOMBRE_DEPARTAMENTO, NOMBRE_MUNICIPIO)
+  ) %>%
+  group_by(llave_base, NOMBRE_DEPARTAMENTO, NOMBRE_MUNICIPIO) %>%
+  summarise(
+    automoviles = sum(CANTIDAD, na.rm = TRUE),
+    .groups = "drop"
+  )
+
 # -------------------------------------------------------------------------
 # 4. Preparar mapa municipal y unir con datos RUNT
 # -------------------------------------------------------------------------
 
 municipios_mapa <- municipios %>%
   mutate(
+    llave_base = crear_llave_base(DPTO_CNMBR, MPIO_CNMBR),
     depto_key = normalizar_depto(limpiar_texto(DPTO_CNMBR)),
     municipio_key = limpiar_texto(MPIO_CNMBR),
     municipio_key = normalizar_municipio(depto_key, municipio_key),
@@ -133,10 +157,29 @@ mapa_autos <- municipios_mapa %>%
 # Diagnostico opcional: municipios del RUNT que no cruzaron con el shapefile.
 no_encontrados <- autos_municipio %>%
   anti_join(st_drop_geometry(municipios_mapa), by = "llave") %>%
-  arrange(desc(automoviles))
+  transmute(
+    departamento_runt = NOMBRE_DEPARTAMENTO,
+    municipio_runt = NOMBRE_MUNICIPIO,
+    llave_cruce = llave,
+    automoviles
+  ) %>%
+  arrange(desc(automoviles), departamento_runt, municipio_runt)
 
 print("Municipios del RUNT que no cruzaron con el shapefile:")
 print(no_encontrados)
+
+no_encontrados_sin_equivalencias <- autos_municipio_base %>%
+  anti_join(st_drop_geometry(municipios_mapa), by = "llave_base") %>%
+  transmute(
+    departamento_runt = NOMBRE_DEPARTAMENTO,
+    municipio_runt = NOMBRE_MUNICIPIO,
+    llave_cruce_base = llave_base,
+    automoviles
+  ) %>%
+  arrange(desc(automoviles), departamento_runt, municipio_runt)
+
+print("Municipios del RUNT que no cruzarian sin equivalencias manuales:")
+print(no_encontrados_sin_equivalencias)
 
 # -------------------------------------------------------------------------
 # 5. Graficar todos los municipios
@@ -195,4 +238,14 @@ tabla_automoviles_municipios <- mapa_autos %>%
 write_csv(
   tabla_automoviles_municipios,
   "tabla_cobertura_municipios_runt.csv"
+)
+
+write_csv(
+  no_encontrados,
+  "municipios_runt_no_cruzan_shp.csv"
+)
+
+write_csv(
+  no_encontrados_sin_equivalencias,
+  "municipios_runt_no_cruzan_shp_sin_equivalencias.csv"
 )
