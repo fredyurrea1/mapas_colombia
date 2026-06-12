@@ -65,11 +65,27 @@ limpiar_texto <- function(x) {
     str_squish()
 }
 
+normalizar_depto <- function(depto) {
+  case_when(
+    depto == "ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA" ~
+      "ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA Y SANTA CATALINA",
+    TRUE ~ depto
+  )
+}
+
 normalizar_municipio <- function(depto, municipio) {
-  if_else(
-    depto == "BOGOTA D C" & municipio == "BOGOTA",
-    "BOGOTA D C",
-    municipio
+  case_when(
+    depto == "BOGOTA D C" & municipio == "BOGOTA" ~ "BOGOTA D C",
+    depto == "BOLIVAR" & municipio == "CARTAGENA" ~ "CARTAGENA DE INDIAS",
+    depto == "NORTE DE SANTANDER" & municipio == "CUCUTA" ~ "SAN JOSE DE CUCUTA",
+    depto == "TOLIMA" & municipio == "MARIQUITA" ~ "SAN SEBASTIAN DE MARIQUITA",
+    depto == "CUNDINAMARCA" & municipio == "UBATE" ~ "VILLA DE SAN DIEGO DE UBATE",
+    depto == "CAUCA" & municipio == "PIENDAMO" ~ "PIENDAMO TUNIA",
+    depto == "NARINO" & municipio == "TUMACO" ~ "SAN ANDRES DE TUMACO",
+    depto == "ANTIOQUIA" & municipio == "SANTAFE DE ANTIOQUIA" ~ "SANTA FE DE ANTIOQUIA",
+    depto == "ANTIOQUIA" & municipio == "DON MATIAS" ~ "DONMATIAS",
+    depto == "SUCRE" & municipio == "SINCE" ~ "SAN LUIS DE SINCE",
+    TRUE ~ municipio
   )
 }
 
@@ -84,7 +100,7 @@ autos_municipio <- runt %>%
   ) %>%
   mutate(
     CANTIDAD = as.numeric(CANTIDAD),
-    depto_key = limpiar_texto(NOMBRE_DEPARTAMENTO),
+    depto_key = normalizar_depto(limpiar_texto(NOMBRE_DEPARTAMENTO)),
     municipio_key = limpiar_texto(NOMBRE_MUNICIPIO),
     municipio_key = normalizar_municipio(depto_key, municipio_key),
     llave = paste(depto_key, municipio_key, sep = "_")
@@ -101,14 +117,17 @@ autos_municipio <- runt %>%
 
 municipios_mapa <- municipios %>%
   mutate(
-    depto_key = limpiar_texto(DPTO_CNMBR),
+    depto_key = normalizar_depto(limpiar_texto(DPTO_CNMBR)),
     municipio_key = limpiar_texto(MPIO_CNMBR),
     municipio_key = normalizar_municipio(depto_key, municipio_key),
     llave = paste(depto_key, municipio_key, sep = "_")
   )
 
 mapa_autos <- municipios_mapa %>%
-  left_join(autos_municipio, by = "llave")
+  left_join(autos_municipio, by = "llave") %>%
+  mutate(
+    automoviles = if_else(is.na(automoviles), 0, automoviles)
+  )
 
 # Diagnostico opcional: municipios del RUNT que no cruzaron con el shapefile.
 no_encontrados <- autos_municipio %>%
