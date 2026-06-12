@@ -14,4 +14,8 @@ departamentos_sin_regional.csv
 mapa_municipios_regional_bogota.png
 tabla_municipios_regional_bogota.csv
 municipios_runt_no_cruzan_shp_regional_bogota.csv
+mapa_municipios_regional_*.png
+tabla_municipios_regional_*.csv
+municipios_runt_no_cruzan_shp_regional_*.csv
+tabla_resumen_municipios_regionales.csv
 Rplot.png
