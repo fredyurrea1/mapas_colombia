@@ -217,8 +217,19 @@ mapa_automoviles_regional <- ggplot() +
   geom_sf(
     data = regionales_mapa,
     aes(fill = automoviles),
+    color = NA
+  ) +
+  geom_sf(
+    data = departamentos_regionales,
+    fill = NA,
+    color = "white",
+    linewidth = 0.35
+  ) +
+  geom_sf(
+    data = regionales_mapa,
+    fill = NA,
     color = "#222222",
-    linewidth = 0.55
+    linewidth = 0.75
   ) +
   geom_sf_text(
     data = puntos_regionales,
@@ -238,6 +249,7 @@ mapa_automoviles_regional <- ggplot() +
   ) +
   labs(
     title = "Automoviles activos por regional Allianz",
+    subtitle = "Departamentos visibles dentro de cada regional",
     fill = "Automoviles"
   ) +
   theme_void()
