@@ -1,25 +1,21 @@
-# Script para graficar automoviles activos por municipio en Colombia.
+# Mapa de automoviles activos por municipio en Colombia
 #
-# Supuestos:
-# 1. La base RUNT ya esta cargada en un objeto llamado `runt`.
-# 2. El shapefile municipal ya esta cargado en un objeto `municipios`.
-# 3. Opcionalmente, el shapefile departamental puede estar cargado en `departamentos`.
-#
-# Columnas esperadas en `runt`:
-# NOMBRE_DEPARTAMENTO, NOMBRE_MUNICIPIO, NOMBRE_DE_LA_CLASE,
-# ESTADO_DEL_VEHICULO, CANTIDAD.
-#
-# Columnas esperadas en `municipios`:
-# DPTO_CNMBR, MPIO_CNMBR, geometry.
+# Este script asume que los archivos estan en el mismo directorio:
+# - CRECIMIENTO_DEL_PARQUE_AUTOMOTOR_RUNT2.0_20260612.csv
+# - municipios_colombia.shp
+# - departamentos_colombia.shp
 
 library(sf)
 library(dplyr)
+library(readr)
 library(ggplot2)
 library(stringr)
 library(stringi)
 library(scales)
 
-top_n <- 20
+archivo_runt <- "CRECIMIENTO_DEL_PARQUE_AUTOMOTOR_RUNT2.0_20260612.csv"
+archivo_municipios <- "municipios_colombia.shp"
+archivo_departamentos <- "departamentos_colombia.shp"
 
 limpiar_texto <- function(x) {
   x %>%
@@ -29,7 +25,20 @@ limpiar_texto <- function(x) {
     str_squish()
 }
 
-# 1. Agregar automoviles activos por municipio
+# 1. Leer datos
+runt <- read_csv(
+  archivo_runt,
+  locale = locale(encoding = "UTF-8"),
+  show_col_types = FALSE
+)
+
+municipios <- st_read(archivo_municipios, quiet = TRUE) %>%
+  st_transform(4326)
+
+departamentos <- st_read(archivo_departamentos, quiet = TRUE) %>%
+  st_transform(4326)
+
+# 2. Filtrar automoviles activos y sumar por municipio
 autos_municipio <- runt %>%
   filter(
     limpiar_texto(NOMBRE_DE_LA_CLASE) == "AUTOMOVIL",
@@ -47,33 +56,39 @@ autos_municipio <- runt %>%
     .groups = "drop"
   )
 
-# 2. Preparar mapa municipal para emparejar por departamento + municipio
+# 3. Preparar shapefile municipal para cruce
 municipios_mapa <- municipios %>%
-  st_transform(4326) %>%
   mutate(
     depto_key = limpiar_texto(DPTO_CNMBR),
     municipio_key = limpiar_texto(MPIO_CNMBR),
     llave = paste(depto_key, municipio_key, sep = "_")
   )
 
-# 3. Unir RUNT con poligonos municipales
+# 4. Unir datos RUNT con poligonos municipales
 mapa_autos <- municipios_mapa %>%
   left_join(autos_municipio, by = "llave")
 
-# 4. Revisar posibles municipios sin cruce
+# 5. Diagnostico: municipios del RUNT que no cruzaron con el shapefile
 no_encontrados <- autos_municipio %>%
   anti_join(st_drop_geometry(municipios_mapa), by = "llave") %>%
   arrange(desc(automoviles))
 
-print("Top municipios del RUNT que no cruzaron con el shapefile:")
-print(head(no_encontrados, 20))
+print("Municipios del RUNT que no cruzaron con el shapefile:")
+print(no_encontrados)
 
-# 5. Mapa de intensidad por cantidad de automoviles
-mapa_automoviles <- ggplot(mapa_autos) +
+# 6. Mapa de todos los municipios segun cantidad de automoviles
+mapa_automoviles <- ggplot() +
   geom_sf(
+    data = mapa_autos,
     aes(fill = automoviles),
     color = "white",
     linewidth = 0.04
+  ) +
+  geom_sf(
+    data = departamentos,
+    fill = NA,
+    color = "#222222",
+    linewidth = 0.25
   ) +
   scale_fill_viridis_c(
     option = "C",
@@ -83,82 +98,32 @@ mapa_automoviles <- ggplot(mapa_autos) +
   ) +
   labs(
     title = "Automoviles activos por municipio",
+    subtitle = "Municipios de Colombia segun cantidad de automoviles activos",
     fill = "Automoviles"
   ) +
   theme_void()
 
-# Si tienes `departamentos` cargado, se agregan sus bordes al mapa.
-if (exists("departamentos")) {
-  departamentos_mapa <- st_transform(departamentos, 4326)
-
-  mapa_automoviles <- mapa_automoviles +
-    geom_sf(
-      data = departamentos_mapa,
-      fill = NA,
-      color = "#222222",
-      linewidth = 0.25,
-      inherit.aes = FALSE
-    )
-}
-
 print(mapa_automoviles)
 
-# 6. Mapa resaltando los municipios con mayor cantidad de automoviles
-top_autos <- mapa_autos %>%
-  filter(!is.na(automoviles)) %>%
-  arrange(desc(automoviles)) %>%
-  slice_head(n = top_n)
-
-colores_top <- setNames(
-  c("#e63946", "#e5e7eb"),
-  c(paste0("Top ", top_n), "Otros municipios")
+# 7. Guardar resultado
+ggsave(
+  "mapa_automoviles_municipios.png",
+  mapa_automoviles,
+  width = 9,
+  height = 11,
+  dpi = 300
 )
 
-mapa_top_automoviles <- mapa_autos %>%
-  mutate(
-    grupo = if_else(
-      llave %in% top_autos$llave,
-      paste0("Top ", top_n),
-      "Otros municipios"
-    )
-  ) %>%
-  ggplot() +
-  geom_sf(
-    aes(fill = grupo),
-    color = "white",
-    linewidth = 0.04
-  ) +
-  scale_fill_manual(
-    values = colores_top
-  ) +
-  labs(
-    title = paste0("Top ", top_n, " municipios con mas automoviles activos"),
-    fill = NULL
-  ) +
-  theme_void() +
-  theme(legend.position = "bottom")
-
-if (exists("departamentos")) {
-  mapa_top_automoviles <- mapa_top_automoviles +
-    geom_sf(
-      data = departamentos_mapa,
-      fill = NA,
-      color = "#222222",
-      linewidth = 0.25,
-      inherit.aes = FALSE
-    )
-}
-
-print(mapa_top_automoviles)
-
-# 7. Tabla con el top de municipios
-top_autos_tabla <- top_autos %>%
+# 8. Tabla ordenada de todos los municipios con automoviles
+tabla_automoviles_municipios <- mapa_autos %>%
   st_drop_geometry() %>%
+  filter(!is.na(automoviles)) %>%
   select(DPTO_CNMBR, MPIO_CNMBR, automoviles) %>%
   arrange(desc(automoviles))
 
-print(top_autos_tabla)
+print(tabla_automoviles_municipios)
 
-# Opcional: guardar imagenes
-# ggsave("mapa_automoviles_municipios.png", mapa_automoviles, width = 9, height = 11, dpi = 300)
-# ggsave("mapa_top_automoviles_municipios.png", mapa_top_automoviles, width = 9, height = 11, dpi = 300)
+write_csv(
+  tabla_automoviles_municipios,
+  "automoviles_municipios.csv"
+)
