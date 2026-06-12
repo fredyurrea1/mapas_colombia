@@ -126,6 +126,7 @@ municipios_mapa <- municipios %>%
 mapa_autos <- municipios_mapa %>%
   left_join(autos_municipio, by = "llave") %>%
   mutate(
+    tiene_dato_runt = if_else(is.na(automoviles), "NO", "SI"),
     automoviles = if_else(is.na(automoviles), 0, automoviles)
   )
 
@@ -183,11 +184,15 @@ ggsave(
 
 tabla_automoviles_municipios <- mapa_autos %>%
   st_drop_geometry() %>%
-  filter(!is.na(automoviles)) %>%
-  select(DPTO_CNMBR, MPIO_CNMBR, automoviles) %>%
-  arrange(desc(automoviles))
+  select(
+    departamento = DPTO_CNMBR,
+    municipio = MPIO_CNMBR,
+    tiene_dato_runt,
+    automoviles
+  ) %>%
+  arrange(tiene_dato_runt, departamento, municipio)
 
 write_csv(
   tabla_automoviles_municipios,
-  "automoviles_municipios.csv"
+  "tabla_cobertura_municipios_runt.csv"
 )
