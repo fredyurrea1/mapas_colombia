@@ -1,0 +1,687 @@
+ciudad,depto_key,regional,leads
+BOGOTÁ,BOGOTA D C,Bogota,10708
+MEDELLÍN,ANTIOQUIA,Antioquia y eje,4580
+CALI,VALLE DEL CAUCA,Occidente y centro,2657
+BARRANQUILLA,ATLANTICO,Costa atlantica,1437
+Bogotá,BOGOTA D C,Bogota,870
+PEREIRA,RISARALDA,Antioquia y eje,580
+BUCARAMANGA,SANTANDER,Oriente,555
+ENVIGADO,ANTIOQUIA,Antioquia y eje,453
+IBAGUÉ,TOLIMA,Occidente y centro,414
+MANIZALES,CALDAS,Antioquia y eje,412
+CARTAGENA,BOLIVAR,Costa atlantica,352
+VILLAVICENCIO,META,Oriente,329
+Medellín,MEDELLIN ANTIOQUIA,Sin regional,301
+ARMENIA,QUINDIO,Antioquia y eje,299
+RIONEGRO,ANTIOQUIA,Antioquia y eje,240
+CHÍA,CUNDINAMARCA,Bogota,223
+SABANETA,ANTIOQUIA,Antioquia y eje,221
+POPAYÁN,CAUCA,Occidente y centro,202
+PALMIRA,VALLE DEL CAUCA,Occidente y centro,194
+VALLEDUPAR,CESAR,Costa atlantica,180
+CAJICÁ,CUNDINAMARCA,Bogota,168
+CÚCUTA,NORTE DE SANTANDER,Oriente,166
+Cali,CALI VALLE DEL CAUCA,Sin regional,164
+BELLO,ANTIOQUIA,Antioquia y eje,162
+TUNJA,BOYACA,Oriente,159
+NEIVA,HUILA,Occidente y centro,156
+ITAGUI,ANTIOQUIA,Antioquia y eje,146
+MONTERÍA,CORDOBA,Costa atlantica,144
+SANTA MARTA,MAGDALENA,Costa atlantica,138
+MOSQUERA,CUNDINAMARCA,Bogota,137
+ZIPAQUIRÁ,CUNDINAMARCA,Bogota,129
+PASTO,NARINO,Occidente y centro,125
+FUSAGASUGÁ,CUNDINAMARCA,Bogota,98
+MADRID,CUNDINAMARCA,Bogota,89
+BARRANCABERMEJA,SANTANDER,Oriente,88
+LA CEJA,ANTIOQUIA,Antioquia y eje,76
+YOPAL,CASANARE,Resto del pais,75
+GUADALAJARA DE BUGA,VALLE DEL CAUCA,Occidente y centro,72
+SOGAMOSO,BOYACA,Oriente,72
+TULUÁ,VALLE DEL CAUCA,Occidente y centro,72
+FACATATIVÁ,CUNDINAMARCA,Bogota,69
+Barranquilla,BARRANQUILLA ATLANTICO,Sin regional,65
+FUNZA,CUNDINAMARCA,Bogota,65
+SINCELEJO,SUCRE,Costa atlantica,62
+SOACHA,CUNDINAMARCA,Bogota,61
+CARTAGO,VALLE DEL CAUCA,Occidente y centro,60
+DOSQUEBRADAS,RISARALDA,Antioquia y eje,60
+DUITAMA,BOYACA,Oriente,57
+FLORIDABLANCA,SANTANDER,Oriente,55
+TOCANCIPÁ,CUNDINAMARCA,Bogota,51
+LA ESTRELLA,ANTIOQUIA,Antioquia y eje,47
+Sin dato,NA,Sin regional,46
+GIRARDOT,CUNDINAMARCA,Bogota,45
+COPACABANA,ANTIOQUIA,Antioquia y eje,44
+JAMUNDÍ,VALLE DEL CAUCA,Occidente y centro,44
+MARINILLA,ANTIOQUIA,Antioquia y eje,44
+EL CARMEN DE VIBORAL,ANTIOQUIA,Antioquia y eje,42
+Pereira,PEREIRA RISARALDA,Sin regional,39
+GUARNE,ANTIOQUIA,Antioquia y eje,38
+LA DORADA,CALDAS,Antioquia y eje,37
+ACACÍAS,META,Oriente,35
+RIOHACHA,LA GUAJIRA,Costa atlantica,34
+COTA,CUNDINAMARCA,Bogota,33
+YUMBO,VALLE DEL CAUCA,Occidente y centro,32
+PITALITO,HUILA,Occidente y centro,31
+APARTADÓ,ANTIOQUIA,Antioquia y eje,30
+FLORENCIA,CAQUETA,Resto del pais,30
+Bucaramanga,BUCARAMANGA SANTANDER,Sin regional,29
+PIEDECUESTA,SANTANDER,Oriente,28
+RETIRO,ANTIOQUIA,Antioquia y eje,28
+GIRARDOTA,ANTIOQUIA,Antioquia y eje,27
+SANTA ROSA DE CABAL,RISARALDA,Antioquia y eje,27
+BUENAVENTURA,VALLE DEL CAUCA,Occidente y centro,25
+IPIALES,NARINO,Occidente y centro,25
+OCAÑA,NORTE DE SANTANDER,Oriente,24
+TENJO,CUNDINAMARCA,Bogota,23
+Ibagué,IBAGUE TOLIMA,Sin regional,22
+Villavicencio,VILLAVICENCIO META,Sin regional,22
+CHIQUINQUIRÁ,BOYACA,Oriente,21
+GIRÓN,SANTANDER,Oriente,20
+SANTANDER DE QUILICHAO,CAUCA,Occidente y centro,20
+SOLEDAD,ATLANTICO,Costa atlantica,20
+CALDAS,ANTIOQUIA,Antioquia y eje,19
+CALARCA,QUINDIO,Antioquia y eje,18
+PAIPA,BOYACA,Oriente,17
+SAN GIL,SANTANDER,Oriente,17
+SOCORRO,SANTANDER,Oriente,17
+ABEJORRAL,ANTIOQUIA,Antioquia y eje,16
+AGUACHICA,CESAR,Costa atlantica,16
+CANDELARIA,VALLE DEL CAUCA,Occidente y centro,16
+Cartagena de Indias,CARTAGENA DE INDIAS BOLIVAR,Sin regional,16
+Palmira,PALMIRA VALLE DEL CAUCA,Sin regional,16
+CARRETERAS NACIONALES,CARRETERAS NACIONALES,Sin regional,15
+LA CALERA,CUNDINAMARCA,Bogota,15
+LA MESA,CUNDINAMARCA,Bogota,15
+Popayán,POPAYAN CAUCA,Sin regional,15
+QUIBDÓ,CHOCO,Resto del pais,15
+SOPÓ,CUNDINAMARCA,Bogota,15
+Cúcuta,CUCUTA NORTE DE SANTANDER,Sin regional,14
+Envigado,ENVIGADO ANTIOQUIA,Sin regional,14
+HONDA,TOLIMA,Occidente y centro,14
+MELGAR,TOLIMA,Occidente y centro,14
+PUERTO BOYACÁ,BOYACA,Oriente,14
+VILLA DE SAN DIEGO DE UBATE,CUNDINAMARCA,Bogota,13
+Chía,CHIA CUNDINAMARCA,Sin regional,12
+BARBOSA,SANTANDER,Oriente,11
+CIRCASIA,QUINDIO,Antioquia y eje,11
+CIÉNAGA,MAGDALENA,Costa atlantica,11
+EL CERRITO,VALLE DEL CAUCA,Occidente y centro,11
+GUADUAS,CUNDINAMARCA,Bogota,11
+MAICAO,LA GUAJIRA,Costa atlantica,11
+MARIQUITA,TOLIMA,Occidente y centro,11
+MONTELÍBANO,CORDOBA,Costa atlantica,11
+Manizales,MANIZALES CALDAS,Sin regional,11
+Mosquera,MOSQUERA CUNDINAMARCA,Sin regional,11
+PAMPLONA,NORTE DE SANTANDER,Oriente,11
+PUERTO COLOMBIA,ATLANTICO,Costa atlantica,11
+PUERTO GAITÁN,META,Oriente,11
+VILLETA,CUNDINAMARCA,Bogota,11
+ZARZAL,VALLE DEL CAUCA,Occidente y centro,11
+ARMENIA,ANTIOQUIA,Antioquia y eje,10
+Bello,BELLO ANTIOQUIA,Sin regional,10
+CAUCASIA,ANTIOQUIA,Antioquia y eje,10
+EL SANTUARIO,ANTIOQUIA,Antioquia y eje,10
+Rionegro,RIONEGRO ANTIOQUIA,Sin regional,10
+TABIO,CUNDINAMARCA,Bogota,10
+TUMACO,NARINO,Occidente y centro,10
+YARUMAL,ANTIOQUIA,Antioquia y eje,10
+ARAUCA,ARAUCA,Resto del pais,9
+BARBOSA,ANTIOQUIA,Antioquia y eje,9
+Cajicá,CAJICA CUNDINAMARCA,Sin regional,9
+FLORIDA,VALLE DEL CAUCA,Occidente y centro,9
+LA UNIÓN,VALLE DEL CAUCA,Occidente y centro,9
+MOCOA,PUTUMAYO,Resto del pais,9
+RESTREPO,META,Oriente,9
+SANTA ROSA DE OSOS,ANTIOQUIA,Antioquia y eje,9
+Santa Marta,SANTA MARTA MAGDALENA,Sin regional,9
+TURBACO,BOLIVAR,Costa atlantica,9
+Tunja,TUNJA BOYACA,Sin regional,9
+AGUAZUL,CASANARE,Resto del pais,8
+ANSERMA,CALDAS,Antioquia y eje,8
+Armenia,ARMENIA QUINDIO,Sin regional,8
+CAICEDONIA,VALLE DEL CAUCA,Occidente y centro,8
+CHINCHINÁ,CALDAS,Antioquia y eje,8
+CONCORDIA,ANTIOQUIA,Antioquia y eje,8
+GARZÓN,HUILA,Occidente y centro,8
+GRANADA,META,Oriente,8
+GUATAPE,ANTIOQUIA,Antioquia y eje,8
+Itagüí,ITAGUI ANTIOQUIA,Sin regional,8
+PLANETA RICA,CORDOBA,Costa atlantica,8
+Pasto,PASTO NARINO,Sin regional,8
+ROLDANILLO,VALLE DEL CAUCA,Occidente y centro,8
+SAN FRANCISCO,CUNDINAMARCA,Bogota,8
+SEVILLA,VALLE DEL CAUCA,Occidente y centro,8
+Tuluá,TULUA VALLE DEL CAUCA,Sin regional,8
+VILLAMARÍA,CALDAS,Antioquia y eje,8
+ABREGO,NORTE DE SANTANDER,Oriente,7
+ANAPOIMA,CUNDINAMARCA,Bogota,7
+ANDES,ANTIOQUIA,Antioquia y eje,7
+BOSCONIA,CESAR,Costa atlantica,7
+Cota,COTA CUNDINAMARCA,Sin regional,7
+ESPINAL,TOLIMA,Occidente y centro,7
+JARDÍN,ANTIOQUIA,Antioquia y eje,7
+LA UNIÓN,ANTIOQUIA,Antioquia y eje,7
+MALAMBO,ATLANTICO,Costa atlantica,7
+Madrid,MADRID CUNDINAMARCA,Sin regional,7
+NOBSA,BOYACA,Oriente,7
+PUERTO ASÍS,PUTUMAYO,Resto del pais,7
+PUERTO BERRÍO,ANTIOQUIA,Antioquia y eje,7
+PUERTO SALGAR,CUNDINAMARCA,Bogota,7
+QUIMBAYA,QUINDIO,Antioquia y eje,7
+SAN JUAN DEL CESAR,LA GUAJIRA,Costa atlantica,7
+Yumbo,YUMBO VALLE DEL CAUCA,Sin regional,7
+ABRIAQUÍ,ANTIOQUIA,Antioquia y eje,6
+BOYACÁ,BOYACA,Oriente,6
+BUGALAGRANDE,VALLE DEL CAUCA,Occidente y centro,6
+Barrancabermeja,BARRANCABERMEJA SANTANDER,Sin regional,6
+CAREPA,ANTIOQUIA,Antioquia y eje,6
+CERETÉ,CORDOBA,Costa atlantica,6
+CHOCONTÁ,CUNDINAMARCA,Bogota,6
+CIUDAD BOLÍVAR,ANTIOQUIA,Antioquia y eje,6
+CUMARAL,META,Oriente,6
+Cartago,CARTAGO VALLE DEL CAUCA,Sin regional,6
+Dosquebradas,DOSQUEBRADAS RISARALDA,Sin regional,6
+EL BANCO,MAGDALENA,Costa atlantica,6
+EL ROSAL,CUNDINAMARCA,Bogota,6
+GINEBRA,VALLE DEL CAUCA,Occidente y centro,6
+LOS PATIOS,NORTE DE SANTANDER,Oriente,6
+LÍBANO,TOLIMA,Occidente y centro,6
+PIENDAMÓ,CAUCA,Occidente y centro,6
+PUERTO TEJADA,CAUCA,Occidente y centro,6
+RICAURTE,CUNDINAMARCA,Bogota,6
+SAN PEDRO,ANTIOQUIA,Antioquia y eje,6
+SAN VICENTE,ANTIOQUIA,Antioquia y eje,6
+SANTANDER,BUCARAMANGA,Sin regional,6
+Sabaneta,SABANETA ANTIOQUIA,Sin regional,6
+TURBO,ANTIOQUIA,Antioquia y eje,6
+VEGACHÍ,ANTIOQUIA,Antioquia y eje,6
+VILLA DE LEYVA,BOYACA,Oriente,6
+VILLA DEL ROSARIO,NORTE DE SANTANDER,Oriente,6
+ALCALÁ,VALLE DEL CAUCA,Occidente y centro,5
+AMAGÁ,ANTIOQUIA,Antioquia y eje,5
+AMALFI,ANTIOQUIA,Antioquia y eje,5
+ANDALUCÍA,VALLE DEL CAUCA,Occidente y centro,5
+BARICHARA,SANTANDER,Oriente,5
+BELÉN DE UMBRÍA,RISARALDA,Antioquia y eje,5
+COROZAL,SUCRE,Costa atlantica,5
+FONSECA,LA GUAJIRA,Costa atlantica,5
+FREDONIA,ANTIOQUIA,Antioquia y eje,5
+FUNDACIÓN,MAGDALENA,Costa atlantica,5
+Fusagasugá,FUSAGASUGA CUNDINAMARCA,Sin regional,5
+GARAGOA,BOYACA,Oriente,5
+GUAMAL,META,Oriente,5
+ITAGÜÍ,ANTIOQUIA,Antioquia y eje,5
+LA PLATA,HUILA,Occidente y centro,5
+LA TEBAIDA,QUINDIO,Antioquia y eje,5
+PACHO,CUNDINAMARCA,Bogota,5
+PAZ DE ARIPORO,CASANARE,Resto del pais,5
+SABANAGRANDE,ATLANTICO,Costa atlantica,5
+SAN JOSÉ DEL GUAVIARE,GUAVIARE,Resto del pais,5
+TAURAMENA,CASANARE,Resto del pais,5
+VILLANUEVA,CASANARE,Resto del pais,5
+VILLAPINZÓN,CUNDINAMARCA,Bogota,5
+VÉLEZ,SANTANDER,Oriente,5
+AGUSTÍN CODAZZI,CESAR,Costa atlantica,4
+BARRANCA DE UPÍA,META,Oriente,4
+CHAPARRAL,TOLIMA,Occidente y centro,4
+CISNEROS,ANTIOQUIA,Antioquia y eje,4
+Duitama,DUITAMA BOYACA,Sin regional,4
+EL CARMEN DE ATRATO,CHOCO,Resto del pais,4
+EL COLEGIO,CUNDINAMARCA,Bogota,4
+Florencia,FLORENCIA CAQUETA,Sin regional,4
+GACHANCIPÁ,CUNDINAMARCA,Bogota,4
+GUASCA,CUNDINAMARCA,Bogota,4
+JERICÓ,ANTIOQUIA,Antioquia y eje,4
+LA JAGUA DE IBIRICO,CESAR,Costa atlantica,4
+LA VEGA,CUNDINAMARCA,Bogota,4
+LA VICTORIA,VALLE DEL CAUCA,Occidente y centro,4
+LA VIRGINIA,RISARALDA,Antioquia y eje,4
+Montería,MONTERIA CORDOBA,Sin regional,4
+Neiva,NEIVA HUILA,Sin regional,4
+PEÑOL,ANTIOQUIA,Antioquia y eje,4
+PUERTO TRIUNFO,ANTIOQUIA,Antioquia y eje,4
+Retiro,RETIRO ANTIOQUIA,Sin regional,4
+SAHAGÚN,CORDOBA,Costa atlantica,4
+SAN ROQUE,ANTIOQUIA,Antioquia y eje,4
+SIBATÉ,CUNDINAMARCA,Bogota,4
+SUPÍA,CALDAS,Antioquia y eje,4
+Sincelejo,SINCELEJO SUCRE,Sin regional,4
+YOLOMBÓ,ANTIOQUIA,Antioquia y eje,4
+ACEVEDO,HUILA,Occidente y centro,3
+ALBANIA,LA GUAJIRA,Costa atlantica,3
+BARANOA,ATLANTICO,Costa atlantica,3
+BELÉN DE LOS ANDAQUIES,CAQUETA,Resto del pais,3
+BOGOTA,BOGOTA D C,Bogota,3
+BOJACÁ,CUNDINAMARCA,Bogota,3
+Barbosa,BARBOSA ANTIOQUIA,Sin regional,3
+CALAMAR,BOLIVAR,Costa atlantica,3
+CAQUEZA,CUNDINAMARCA,Bogota,3
+CAÑASGORDAS,ANTIOQUIA,Antioquia y eje,3
+CHIGORODÓ,ANTIOQUIA,Antioquia y eje,3
+COCORNÁ,ANTIOQUIA,Antioquia y eje,3
+COGUA,CUNDINAMARCA,Bogota,3
+CURITÍ,SANTANDER,Oriente,3
+CURUMANÍ,CESAR,Costa atlantica,3
+Copacabana,COPACABANA ANTIOQUIA,Sin regional,3
+DON MATÍAS,ANTIOQUIA,Antioquia y eje,3
+ENTRERRIOS,ANTIOQUIA,Antioquia y eje,3
+FLANDES,TOLIMA,Occidente y centro,3
+FOMEQUE,CUNDINAMARCA,Bogota,3
+GIGANTE,HUILA,Occidente y centro,3
+GRANADA,ANTIOQUIA,Antioquia y eje,3
+GUAMO,TOLIMA,Occidente y centro,3
+GUATEQUE,BOYACA,Oriente,3
+LORICA,CORDOBA,Costa atlantica,3
+La Ceja,LA CEJA ANTIOQUIA,Sin regional,3
+MARSELLA,RISARALDA,Antioquia y eje,3
+MONIQUIRÁ,BOYACA,Oriente,3
+NILO,CUNDINAMARCA,Bogota,3
+PALMIRA,NA,Sin regional,3
+RIOSUCIO,CALDAS,Antioquia y eje,3
+RIVERA,HUILA,Occidente y centro,3
+SABANALARGA,ATLANTICO,Costa atlantica,3
+SABOYÁ,BOYACA,Oriente,3
+SALAMINA,CALDAS,Antioquia y eje,3
+SAN AGUSTÍN,HUILA,Occidente y centro,3
+SAN CARLOS,ANTIOQUIA,Antioquia y eje,3
+SAN JERÓNIMO,ANTIOQUIA,Antioquia y eje,3
+SANTAFÉ DE ANTIOQUIA,ANTIOQUIA,Antioquia y eje,3
+SEGOVIA,ANTIOQUIA,Antioquia y eje,3
+SOPETRÁN,ANTIOQUIA,Antioquia y eje,3
+SUAITA,SANTANDER,Oriente,3
+Soacha,SOACHA CUNDINAMARCA,Sin regional,3
+Sogamoso,SOGAMOSO BOYACA,Sin regional,3
+Soledad,SOLEDAD ATLANTICO,Sin regional,3
+TENA,CUNDINAMARCA,Bogota,3
+URRAO,ANTIOQUIA,Antioquia y eje,3
+VILLAVIEJA,HUILA,Occidente y centro,3
+Valledupar,VALLEDUPAR CESAR,Sin regional,3
+YOTOCO,VALLE DEL CAUCA,Occidente y centro,3
+Zipaquirá,ZIPAQUIRA CUNDINAMARCA,Sin regional,3
+ACANDÍ,CHOCO,Resto del pais,2
+AGRADO,HUILA,Occidente y centro,2
+AGUA DE DIOS,CUNDINAMARCA,Bogota,2
+AGUADAS,CALDAS,Antioquia y eje,2
+ALBÁN,CUNDINAMARCA,Bogota,2
+ALBÁN,NARINO,Occidente y centro,2
+ALPUJARRA,TOLIMA,Occidente y centro,2
+ANGELÓPOLIS,ANTIOQUIA,Antioquia y eje,2
+ANOLAIMA,CUNDINAMARCA,Bogota,2
+APÍA,RISARALDA,Antioquia y eje,2
+ARACATACA,MAGDALENA,Costa atlantica,2
+ARANZAZU,CALDAS,Antioquia y eje,2
+ARGELIA,CAUCA,Occidente y centro,2
+ARMERO,TOLIMA,Occidente y centro,2
+AYAPEL,CORDOBA,Costa atlantica,2
+Acacías,ACACIAS META,Sin regional,2
+Andes,ANDES ANTIOQUIA,Sin regional,2
+Apartadó,APARTADO ANTIOQUIA,Sin regional,2
+BARRANCAS,LA GUAJIRA,Costa atlantica,2
+BELÉN,BOYACA,Oriente,2
+BOAVITA,BOYACA,Oriente,2
+Buenaventura,BUENAVENTURA VALLE DEL CAUCA,Sin regional,2
+CAIMITO,SUCRE,Costa atlantica,2
+CAJAMARCA,TOLIMA,Occidente y centro,2
+CALIMA,VALLE DEL CAUCA,Occidente y centro,2
+CALOTO,CAUCA,Occidente y centro,2
+CANTAGALLO,BOLIVAR,Costa atlantica,2
+CASABIANCA,TOLIMA,Occidente y centro,2
+CASTILLA LA NUEVA,META,Oriente,2
+CHOACHÍ,CUNDINAMARCA,Bogota,2
+COLOMBIA,HUILA,Occidente y centro,2
+COVEÑAS,SUCRE,Costa atlantica,2
+Calima,CALIMA VALLE DEL CAUCA,Sin regional,2
+DIBULLA,LA GUAJIRA,Costa atlantica,2
+EBÉJICO,ANTIOQUIA,Antioquia y eje,2
+EL COPEY,CESAR,Costa atlantica,2
+EL DOVIO,VALLE DEL CAUCA,Occidente y centro,2
+ENVIGADO,NA,Sin regional,2
+Espinal,ESPINAL TOLIMA,Sin regional,2
+FILANDIA,QUINDIO,Antioquia y eje,2
+FLORENCIA,CAUCA,Occidente y centro,2
+FRESNO,TOLIMA,Occidente y centro,2
+Facatativá,FACATATIVA CUNDINAMARCA,Sin regional,2
+Floridablanca,FLORIDABLANCA SANTANDER,Sin regional,2
+GACHETÁ,CUNDINAMARCA,Bogota,2
+GUADALUPE,ANTIOQUIA,Antioquia y eje,2
+GUATAVITA,CUNDINAMARCA,Bogota,2
+Guadalajara de Buga,GUADALAJARA DE BUGA VALLE DEL CAUCA,Sin regional,2
+Guarne,GUARNE ANTIOQUIA,Sin regional,2
+HATONUEVO,LA GUAJIRA,Costa atlantica,2
+INÍRIDA,GUAINIA,Resto del pais,2
+JENESANO,BOYACA,Oriente,2
+JUAN DE ACOSTA,ATLANTICO,Costa atlantica,2
+Jamundí,JAMUNDI VALLE DEL CAUCA,Sin regional,2
+LA CRUZ,NARINO,Occidente y centro,2
+LA CUMBRE,VALLE DEL CAUCA,Occidente y centro,2
+MANIZALES,NA,Sin regional,2
+MANTA,CUNDINAMARCA,Bogota,2
+MANÍ,CASANARE,Resto del pais,2
+MEDINA,CUNDINAMARCA,Bogota,2
+MIRANDA,CAUCA,Occidente y centro,2
+MOMPÓS,BOLIVAR,Costa atlantica,2
+MONTERREY,CASANARE,Resto del pais,2
+MORALES,CAUCA,Occidente y centro,2
+MOSQUERA,NARINO,Occidente y centro,2
+Medellín,NA,Sin regional,2
+Mocoa,MOCOA PUTUMAYO,Sin regional,2
+MÁLAGA,SANTANDER,Oriente,2
+NEMOCÓN,CUNDINAMARCA,Bogota,2
+NOCAIMA,CUNDINAMARCA,Bogota,2
+NUNCHÍA,CASANARE,Resto del pais,2
+Ocaña,OCANA NORTE DE SANTANDER,Sin regional,2
+PARATEBUENO,CUNDINAMARCA,Bogota,2
+PUEBLO RICO,RISARALDA,Antioquia y eje,2
+PUERTO LIBERTADOR,CORDOBA,Costa atlantica,2
+PUERTO WILCHES,SANTANDER,Oriente,2
+PURIFICACIÓN,TOLIMA,Occidente y centro,2
+Palmira,NA,Sin regional,2
+Pradera,PRADERA VALLE DEL CAUCA,Sin regional,2
+Puerto Boyacá,PUERTO BOYACA BOYACA,Sin regional,2
+QUINCHÍA,RISARALDA,Antioquia y eje,2
+RAMIRIQUÍ,BOYACA,Oriente,2
+RISARALDA,CALDAS,Antioquia y eje,2
+Riohacha,RIOHACHA LA GUAJIRA,Sin regional,2
+SAN ANTONIO DEL TEQUENDAMA,CUNDINAMARCA,Bogota,2
+SAN BERNARDO,CUNDINAMARCA,Bogota,2
+SAN MARCOS,SUCRE,Costa atlantica,2
+SAN MARTÍN,CESAR,Costa atlantica,2
+SAN MARTÍN,META,Oriente,2
+SAN RAFAEL,ANTIOQUIA,Antioquia y eje,2
+SAN VICENTE DEL CAGUÁN,CAQUETA,Resto del pais,2
+SANTA ANA,MAGDALENA,Costa atlantica,2
+SANTA BÁRBARA,ANTIOQUIA,Antioquia y eje,2
+SANTA ROSA DE VITERBO,BOYACA,Oriente,2
+SANTO TOMÁS,ATLANTICO,Costa atlantica,2
+SANTUARIO,RISARALDA,Antioquia y eje,2
+SASAIMA,CUNDINAMARCA,Bogota,2
+SESQUILÉ,CUNDINAMARCA,Bogota,2
+SOATÁ,BOYACA,Oriente,2
+SONSON,ANTIOQUIA,Antioquia y eje,2
+SUBACHOQUE,CUNDINAMARCA,Bogota,2
+TAME,ARAUCA,Resto del pais,2
+TIBANÁ,BOYACA,Oriente,2
+TIBASOSA,BOYACA,Oriente,2
+TOCAIMA,CUNDINAMARCA,Bogota,2
+TUTA,BOYACA,Oriente,2
+Tabio,TABIO CUNDINAMARCA,Sin regional,2
+Turmequé,TURMEQUE BOYACA,Sin regional,2
+VENTAQUEMADA,BOYACA,Oriente,2
+VILLAGARZÓN,PUTUMAYO,Resto del pais,2
+VILLAGÓMEZ,CUNDINAMARCA,Bogota,2
+Villa de Leyva,VILLA DE LEYVA BOYACA,Sin regional,2
+Yarumal,YARUMAL ANTIOQUIA,Sin regional,2
+ÚTICA,CUNDINAMARCA,Bogota,2
+ACHÍ,BOLIVAR,Costa atlantica,1
+AGUADA,SANTANDER,Oriente,1
+AIPE,HUILA,Occidente y centro,1
+ALBANIA,CAQUETA,Resto del pais,1
+ALVARADO,TOLIMA,Occidente y centro,1
+ANSERMANUEVO,VALLE DEL CAUCA,Occidente y centro,1
+APULO,CUNDINAMARCA,Bogota,1
+AQUITANIA,BOYACA,Oriente,1
+ARBELÁEZ,CUNDINAMARCA,Bogota,1
+ARBOLEDA,NARINO,Occidente y centro,1
+ARBOLEDAS,NORTE DE SANTANDER,Oriente,1
+ARBOLETES,ANTIOQUIA,Antioquia y eje,1
+ARIGUANÍ,MAGDALENA,Costa atlantica,1
+ARJONA,BOLIVAR,Costa atlantica,1
+ATACO,TOLIMA,Occidente y centro,1
+Abejorral,ABEJORRAL ANTIOQUIA,Sin regional,1
+Aguachica,AGUACHICA CESAR,Sin regional,1
+Alvarado,ALVARADO TOLIMA,Sin regional,1
+Anapoima,ANAPOIMA CUNDINAMARCA,Sin regional,1
+BETANIA,ANTIOQUIA,Antioquia y eje,1
+BETULIA,ANTIOQUIA,Antioquia y eje,1
+BETÉITIVA,BOYACA,Oriente,1
+BOLÍVAR,VALLE DEL CAUCA,Occidente y centro,1
+BUCARASICA,NORTE DE SANTANDER,Oriente,1
+BUENAVISTA,CORDOBA,Costa atlantica,1
+BURITICÁ,ANTIOQUIA,Antioquia y eje,1
+BUSBANZÁ,BOYACA,Oriente,1
+Baranoa,BARANOA ATLANTICO,Sin regional,1
+Barranco de Loba,BARRANCO DE LOBA BOLIVAR,Sin regional,1
+Betulia,BETULIA SANTANDER,Sin regional,1
+Bochalema,BOCHALEMA NORTE DE SANTANDER,Sin regional,1
+Boyacá,BOYACA BOYACA,Sin regional,1
+Bugalagrande,BUGALAGRANDE VALLE DEL CAUCA,Sin regional,1
+CABRERA,CUNDINAMARCA,Bogota,1
+CAJIBÍO,CAUCA,Occidente y centro,1
+CALIFORNIA,SANTANDER,Oriente,1
+CAMPAMENTO,ANTIOQUIA,Antioquia y eje,1
+CARAMANTA,ANTIOQUIA,Antioquia y eje,1
+CAROLINA,ANTIOQUIA,Antioquia y eje,1
+CARTAGENA DEL CHAIRÁ,CAQUETA,Resto del pais,1
+CERRITO,SANTANDER,Oriente,1
+CHARALÁ,SANTANDER,Oriente,1
+CHIPAQUE,CUNDINAMARCA,Bogota,1
+CHIRIGUANÁ,CESAR,Costa atlantica,1
+CHISCAS,BOYACA,Oriente,1
+CHITAGÁ,NORTE DE SANTANDER,Oriente,1
+CICUCO,BOLIVAR,Costa atlantica,1
+CLEMENCIA,BOLIVAR,Costa atlantica,1
+COLÓN,NARINO,Occidente y centro,1
+CONCEPCIÓN,ANTIOQUIA,Antioquia y eje,1
+CONDOTO,CHOCO,Resto del pais,1
+COROMORO,SANTANDER,Oriente,1
+COYAIMA,TOLIMA,Occidente y centro,1
+CUCUNUBÁ,CUNDINAMARCA,Bogota,1
+Cajica,NA,Sin regional,1
+Calarcá,CALARCA QUINDIO,Sin regional,1
+Caldas,CALDAS ANTIOQUIA,Sin regional,1
+Carmen de Apicalá,CARMEN DE APICALA TOLIMA,Sin regional,1
+Cartagena del Chairá,CARTAGENA DEL CHAIRA CAQUETA,Sin regional,1
+Cerrito,CERRITO SANTANDER,Sin regional,1
+Charalá,CHARALA SANTANDER,Sin regional,1
+Chinchiná,CHINCHINA CALDAS,Sin regional,1
+Corozal,COROZAL SUCRE,Sin regional,1
+Coveñas,COVENAS SUCRE,Sin regional,1
+CÓMBITA,BOYACA,Oriente,1
+Córdoba,CORDOBA QUINDIO,Sin regional,1
+DAGUA,VALLE DEL CAUCA,Occidente y centro,1
+Dibulla,DIBULLA LA GUAJIRA,Sin regional,1
+EL BAGRE,ANTIOQUIA,Antioquia y eje,1
+EL CARMEN DE BOLÍVAR,BOLIVAR,Costa atlantica,1
+EL PASO,CESAR,Costa atlantica,1
+EL PAUJIL,CAQUETA,Resto del pais,1
+EL RETÉN,MAGDALENA,Costa atlantica,1
+EL TAMBO,NARINO,Occidente y centro,1
+El Bagre,EL BAGRE ANTIOQUIA,Sin regional,1
+El Dovio,EL DOVIO VALLE DEL CAUCA,Sin regional,1
+Entrerríos,ENTRERRIOS ANTIOQUIA,Sin regional,1
+Envigado,NA,Sin regional,1
+FILADELFIA,CALDAS,Antioquia y eje,1
+FLORESTA,BOYACA,Oriente,1
+FLORIÁN,SANTANDER,Oriente,1
+FRONTINO,ANTIOQUIA,Antioquia y eje,1
+FUENTE DE ORO,META,Oriente,1
+Filandia,FILANDIA QUINDIO,Sin regional,1
+Fonseca,FONSECA LA GUAJIRA,Sin regional,1
+Funza,FUNZA CUNDINAMARCA,Sin regional,1
+GACHALA,CUNDINAMARCA,Bogota,1
+GIRALDO,ANTIOQUIA,Antioquia y eje,1
+GUACARÍ,VALLE DEL CAUCA,Occidente y centro,1
+GUACHETÁ,CUNDINAMARCA,Bogota,1
+GUACHUCAL,NARINO,Occidente y centro,1
+GUAVATÁ,SANTANDER,Oriente,1
+GUAYATÁ,BOYACA,Oriente,1
+GUÁTICA,RISARALDA,Antioquia y eje,1
+Galapa,GALAPA ATLANTICO,Sin regional,1
+Garagoa,GARAGOA BOYACA,Sin regional,1
+Ginebra,GINEBRA VALLE DEL CAUCA,Sin regional,1
+Girardot,GIRARDOT CUNDINAMARCA,Sin regional,1
+Girardota,GIRARDOTA ANTIOQUIA,Sin regional,1
+Girón,GIRON SANTANDER,Sin regional,1
+González,GONZALEZ CESAR,Sin regional,1
+Granada,GRANADA META,Sin regional,1
+Guamal,GUAMAL MAGDALENA,Sin regional,1
+Guamal,GUAMAL META,Sin regional,1
+Guasca,GUASCA CUNDINAMARCA,Sin regional,1
+Güicán de la Sierra,GUICAN DE LA SIERRA BOYACA,Sin regional,1
+HOBO,HUILA,Occidente y centro,1
+ICONONZO,TOLIMA,Occidente y centro,1
+ISTMINA,CHOCO,Resto del pais,1
+Ipiales,IPIALES NARINO,Sin regional,1
+JAMBALÓ,CAUCA,Occidente y centro,1
+JUNÍN,CUNDINAMARCA,Bogota,1
+LA BELLEZA,SANTANDER,Oriente,1
+LA PALMA,CUNDINAMARCA,Bogota,1
+LA PINTADA,ANTIOQUIA,Antioquia y eje,1
+LA UNIÓN,NARINO,Occidente y centro,1
+LA UVITA,BOYACA,Oriente,1
+LEBRÍJA,SANTANDER,Oriente,1
+LENGUAZAQUE,CUNDINAMARCA,Bogota,1
+LOS PALMITOS,SUCRE,Costa atlantica,1
+LOS SANTOS,SANTANDER,Oriente,1
+La Cumbre,LA CUMBRE VALLE DEL CAUCA,Sin regional,1
+La Estrella,LA ESTRELLA ANTIOQUIA,Sin regional,1
+La Jagua de Ibirico,LA JAGUA DE IBIRICO CESAR,Sin regional,1
+La Paz,LA PAZ CESAR,Sin regional,1
+La Unión,LA UNION NARINO,Sin regional,1
+La Virginia,LA VIRGINIA RISARALDA,Sin regional,1
+Los Patios,LOS PATIOS NORTE DE SANTANDER,Sin regional,1
+MAGANGUÉ,BOLIVAR,Costa atlantica,1
+MANZANARES,CALDAS,Antioquia y eje,1
+MARQUETALIA,CALDAS,Antioquia y eje,1
+MESETAS,META,Oriente,1
+MIRAFLORES,BOYACA,Oriente,1
+MISTRATÓ,RISARALDA,Antioquia y eje,1
+MONTENEGRO,QUINDIO,Antioquia y eje,1
+MOÑITOS,CORDOBA,Costa atlantica,1
+MUTISCUA,NORTE DE SANTANDER,Oriente,1
+Melgar,MELGAR TOLIMA,Sin regional,1
+Montelíbano,MONTELIBANO CORDOBA,Sin regional,1
+Mosquera,MOSQUERA NARINO,Sin regional,1
+Moñitos,MONITOS CORDOBA,Sin regional,1
+NATAGAIMA,TOLIMA,Occidente y centro,1
+NEIRA,CALDAS,Antioquia y eje,1
+NIMAIMA,CUNDINAMARCA,Bogota,1
+NORCASIA,CALDAS,Antioquia y eje,1
+Nariño,NARINO NARINO,Sin regional,1
+OBANDO,VALLE DEL CAUCA,Occidente y centro,1
+OIBA,SANTANDER,Oriente,1
+OICATÁ,BOYACA,Oriente,1
+OROCUÉ,CASANARE,Resto del pais,1
+OTANCHE,BOYACA,Oriente,1
+OVEJAS,SUCRE,Costa atlantica,1
+PALERMO,HUILA,Occidente y centro,1
+PALMAR DE VARELA,ATLANTICO,Costa atlantica,1
+PANQUEBA,BOYACA,Oriente,1
+PASCA,CUNDINAMARCA,Bogota,1
+PAUNA,BOYACA,Oriente,1
+PAZ DE RÍO,BOYACA,Oriente,1
+PELAYA,CESAR,Costa atlantica,1
+PEREIRA,NA,Sin regional,1
+PITAL,HUILA,Occidente y centro,1
+PLANADAS,TOLIMA,Occidente y centro,1
+PLATO,MAGDALENA,Costa atlantica,1
+PRADERA,VALLE DEL CAUCA,Occidente y centro,1
+PROVIDENCIA,ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA Y SANTA CATALINA,Resto del pais,1
+PUEBLO NUEVO,CORDOBA,Costa atlantica,1
+PUEBLORRICO,ANTIOQUIA,Antioquia y eje,1
+PUENTE NACIONAL,SANTANDER,Oriente,1
+PUERRES,NARINO,Occidente y centro,1
+PURÍSIMA,CORDOBA,Costa atlantica,1
+Paipa,PAIPA BOYACA,Sin regional,1
+Piedecuesta,PIEDECUESTA SANTANDER,Sin regional,1
+Pueblo Bello,PUEBLO BELLO CESAR,Sin regional,1
+Puerto Colombia,PUERTO COLOMBIA ATLANTICO,Sin regional,1
+Puerto López,PUERTO LOPEZ META,Sin regional,1
+Quibdó,QUIBDO CHOCO,Sin regional,1
+Quimbaya,QUIMBAYA QUINDIO,Sin regional,1
+REMEDIOS,ANTIOQUIA,Antioquia y eje,1
+REPELÓN,ATLANTICO,Costa atlantica,1
+RICAURTE,NARINO,Occidente y centro,1
+RIONEGRO,SANTANDER,Oriente,1
+Restrepo,RESTREPO VALLE DEL CAUCA,Sin regional,1
+Ricaurte,RICAURTE CUNDINAMARCA,Sin regional,1
+Roldanillo,ROLDANILLO VALLE DEL CAUCA,Sin regional,1
+RÍO VIEJO,BOLIVAR,Costa atlantica,1
+SABANALARGA,CASANARE,Resto del pais,1
+SALDAÑA,TOLIMA,Occidente y centro,1
+SALENTO,QUINDIO,Antioquia y eje,1
+SALGAR,ANTIOQUIA,Antioquia y eje,1
+SAMACÁ,BOYACA,Oriente,1
+SAN ANDRÉS,ANTIOQUIA,Antioquia y eje,1
+SAN ANDRÉS,ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA Y SANTA CATALINA,Resto del pais,1
+SAN CARLOS,CORDOBA,Costa atlantica,1
+SAN FRANCISCO,PUTUMAYO,Resto del pais,1
+SAN JOSÉ DEL FRAGUA,CAQUETA,Resto del pais,1
+SAN JUAN DE RÍO SECO,CUNDINAMARCA,Bogota,1
+SAN JUAN NEPOMUCENO,BOLIVAR,Costa atlantica,1
+SAN LUIS,TOLIMA,Occidente y centro,1
+SAN LUIS DE PALENQUE,CASANARE,Resto del pais,1
+SAN MIGUEL,PUTUMAYO,Resto del pais,1
+SAN ONOFRE,SUCRE,Costa atlantica,1
+SAN PABLO,BOLIVAR,Costa atlantica,1
+SAN PABLO,NARINO,Occidente y centro,1
+SAN PEDRO,VALLE DEL CAUCA,Occidente y centro,1
+SAN PELAYO,CORDOBA,Costa atlantica,1
+SANTA MARÍA,BOYACA,Oriente,1
+SANTA ROSA DEL SUR,BOLIVAR,Costa atlantica,1
+SANTA SOFÍA,BOYACA,Oriente,1
+SANTIAGO,PUTUMAYO,Resto del pais,1
+SANTO DOMINGO,ANTIOQUIA,Antioquia y eje,1
+SARAVENA,ARAUCA,Resto del pais,1
+SATIVANORTE,BOYACA,Oriente,1
+SIBUNDOY,PUTUMAYO,Resto del pais,1
+SILVANIA,CUNDINAMARCA,Bogota,1
+SINCÉ,SUCRE,Costa atlantica,1
+SOMONDOCO,BOYACA,Oriente,1
+SUAN,ATLANTICO,Costa atlantica,1
+SUAZA,HUILA,Occidente y centro,1
+SUESCA,CUNDINAMARCA,Bogota,1
+SUSA,CUNDINAMARCA,Bogota,1
+SUTATAUSA,CUNDINAMARCA,Bogota,1
+Sabanagrande,SABANAGRANDE ATLANTICO,Sin regional,1
+Saldaña,SALDANA TOLIMA,Sin regional,1
+Samacá,SAMACA BOYACA,Sin regional,1
+San Carlos,SAN CARLOS ANTIOQUIA,Sin regional,1
+San José del Guaviare,SAN JOSE DEL GUAVIARE GUAVIARE,Sin regional,1
+San Sebastián,SAN SEBASTIAN CAUCA,Sin regional,1
+Santa Rosa De Cabal,NA,Sin regional,1
+Santander de Quilichao,SANTANDER DE QUILICHAO CAUCA,Sin regional,1
+Saravena,SARAVENA ARAUCA,Sin regional,1
+Sevilla,SEVILLA VALLE DEL CAUCA,Sin regional,1
+Simacota,SIMACOTA SANTANDER,Sin regional,1
+Socorro,SOCORRO SANTANDER,Sin regional,1
+Supía,SUPIA CALDAS,Sin regional,1
+SÁCHICA,BOYACA,Oriente,1
+TADÓ,CHOCO,Resto del pais,1
+TAMINANGO,NARINO,Occidente y centro,1
+TARAZÁ,ANTIOQUIA,Antioquia y eje,1
+TENZA,BOYACA,Oriente,1
+TESALIA,HUILA,Occidente y centro,1
+TIBACUY,CUNDINAMARCA,Bogota,1
+TIMANÁ,HUILA,Occidente y centro,1
+TINJACÁ,BOYACA,Oriente,1
+TOGÜÍ,BOYACA,Oriente,1
+TOLEDO,NORTE DE SANTANDER,Oriente,1
+TORO,VALLE DEL CAUCA,Occidente y centro,1
+TUBARÁ,ATLANTICO,Costa atlantica,1
+Tenjo,TENJO CUNDINAMARCA,Sin regional,1
+Tibasosa,TIBASOSA BOYACA,Sin regional,1
+Timbío,TIMBIO CAUCA,Sin regional,1
+Tocancipá,TOCANCIPA CUNDINAMARCA,Sin regional,1
+TÁMESIS,ANTIOQUIA,Antioquia y eje,1
+Támesis,TAMESIS ANTIOQUIA,Sin regional,1
+ULLOA,VALLE DEL CAUCA,Occidente y centro,1
+UMBITA,BOYACA,Oriente,1
+Ubaque,UBAQUE CUNDINAMARCA,Sin regional,1
+Urrao,URRAO ANTIOQUIA,Sin regional,1
+VALDIVIA,ANTIOQUIA,Antioquia y eje,1
+VALENCIA,CORDOBA,Costa atlantica,1
+VALLE DEL GUAMUEZ,PUTUMAYO,Resto del pais,1
+VENADILLO,TOLIMA,Occidente y centro,1
+VIANÍ,CUNDINAMARCA,Bogota,1
+VIOTÁ,CUNDINAMARCA,Bogota,1
+VITERBO,CALDAS,Antioquia y eje,1
+Villeta,VILLETA CUNDINAMARCA,Sin regional,1
+Vistahermosa,VISTAHERMOSA META,Sin regional,1
+YALÍ,ANTIOQUIA,Antioquia y eje,1
+YONDÓ,ANTIOQUIA,Antioquia y eje,1
+ZARAGOZA,ANTIOQUIA,Antioquia y eje,1
+ZONA BANANERA,MAGDALENA,Costa atlantica,1
+cajica,NA,Sin regional,1
