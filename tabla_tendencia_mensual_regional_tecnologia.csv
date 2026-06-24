@@ -1,0 +1,357 @@
+fecha_mes,regional,tecnologia_grupo,ventas
+2025-01-01,Antioquia y eje,Diesel,680
+2025-01-01,Antioquia y eje,Electricos,291
+2025-01-01,Antioquia y eje,Gasolina,1878
+2025-01-01,Antioquia y eje,Hibridos,750
+2025-01-01,Bogota,Diesel,1128
+2025-01-01,Bogota,Electricos,552
+2025-01-01,Bogota,Gasolina,2318
+2025-01-01,Bogota,Hibridos,1609
+2025-01-01,Costa atlantica,Diesel,183
+2025-01-01,Costa atlantica,Electricos,11
+2025-01-01,Costa atlantica,Gasolina,960
+2025-01-01,Costa atlantica,Hibridos,142
+2025-01-01,Occidente y centro,Diesel,224
+2025-01-01,Occidente y centro,Electricos,74
+2025-01-01,Occidente y centro,Gasolina,1274
+2025-01-01,Occidente y centro,Hibridos,344
+2025-01-01,Oriente,Diesel,360
+2025-01-01,Oriente,Electricos,38
+2025-01-01,Oriente,Gasolina,967
+2025-01-01,Oriente,Hibridos,284
+2025-01-01,Resto del pais,Diesel,25
+2025-01-01,Resto del pais,Electricos,1
+2025-01-01,Resto del pais,Gasolina,125
+2025-01-01,Resto del pais,Hibridos,16
+2025-02-01,Antioquia y eje,Diesel,575
+2025-02-01,Antioquia y eje,Electricos,314
+2025-02-01,Antioquia y eje,Gasolina,2254
+2025-02-01,Antioquia y eje,Hibridos,903
+2025-02-01,Bogota,Diesel,1444
+2025-02-01,Bogota,Electricos,647
+2025-02-01,Bogota,Gasolina,3146
+2025-02-01,Bogota,Hibridos,2055
+2025-02-01,Costa atlantica,Diesel,207
+2025-02-01,Costa atlantica,Electricos,15
+2025-02-01,Costa atlantica,Gasolina,1112
+2025-02-01,Costa atlantica,Hibridos,172
+2025-02-01,Occidente y centro,Diesel,234
+2025-02-01,Occidente y centro,Electricos,90
+2025-02-01,Occidente y centro,Gasolina,1282
+2025-02-01,Occidente y centro,Hibridos,392
+2025-02-01,Oriente,Diesel,358
+2025-02-01,Oriente,Electricos,24
+2025-02-01,Oriente,Gasolina,1029
+2025-02-01,Oriente,Hibridos,299
+2025-02-01,Resto del pais,Diesel,45
+2025-02-01,Resto del pais,Gasolina,140
+2025-02-01,Resto del pais,Hibridos,27
+2025-03-01,Antioquia y eje,Diesel,570
+2025-03-01,Antioquia y eje,Electricos,312
+2025-03-01,Antioquia y eje,Gasolina,2250
+2025-03-01,Antioquia y eje,Hibridos,1096
+2025-03-01,Bogota,Diesel,1415
+2025-03-01,Bogota,Electricos,858
+2025-03-01,Bogota,Gasolina,3474
+2025-03-01,Bogota,Hibridos,2238
+2025-03-01,Costa atlantica,Diesel,223
+2025-03-01,Costa atlantica,Electricos,19
+2025-03-01,Costa atlantica,Gasolina,1090
+2025-03-01,Costa atlantica,Hibridos,243
+2025-03-01,Occidente y centro,Diesel,264
+2025-03-01,Occidente y centro,Electricos,128
+2025-03-01,Occidente y centro,Gasolina,1511
+2025-03-01,Occidente y centro,Hibridos,438
+2025-03-01,Oriente,Diesel,363
+2025-03-01,Oriente,Electricos,67
+2025-03-01,Oriente,Gasolina,1113
+2025-03-01,Oriente,Hibridos,397
+2025-03-01,Resto del pais,Diesel,33
+2025-03-01,Resto del pais,Electricos,1
+2025-03-01,Resto del pais,Gasolina,146
+2025-03-01,Resto del pais,Hibridos,22
+2025-04-01,Antioquia y eje,Diesel,503
+2025-04-01,Antioquia y eje,Electricos,321
+2025-04-01,Antioquia y eje,Gasolina,2231
+2025-04-01,Antioquia y eje,Hibridos,975
+2025-04-01,Bogota,Diesel,1217
+2025-04-01,Bogota,Electricos,793
+2025-04-01,Bogota,Gasolina,3029
+2025-04-01,Bogota,Hibridos,2143
+2025-04-01,Costa atlantica,Diesel,204
+2025-04-01,Costa atlantica,Electricos,18
+2025-04-01,Costa atlantica,Gasolina,1114
+2025-04-01,Costa atlantica,Hibridos,212
+2025-04-01,Occidente y centro,Diesel,293
+2025-04-01,Occidente y centro,Electricos,123
+2025-04-01,Occidente y centro,Gasolina,1524
+2025-04-01,Occidente y centro,Hibridos,476
+2025-04-01,Oriente,Diesel,331
+2025-04-01,Oriente,Electricos,32
+2025-04-01,Oriente,Gasolina,1128
+2025-04-01,Oriente,Hibridos,411
+2025-04-01,Resto del pais,Diesel,18
+2025-04-01,Resto del pais,Electricos,1
+2025-04-01,Resto del pais,Gasolina,102
+2025-04-01,Resto del pais,Hibridos,20
+2025-05-01,Antioquia y eje,Diesel,657
+2025-05-01,Antioquia y eje,Electricos,379
+2025-05-01,Antioquia y eje,Gasolina,2484
+2025-05-01,Antioquia y eje,Hibridos,1263
+2025-05-01,Bogota,Diesel,1569
+2025-05-01,Bogota,Electricos,831
+2025-05-01,Bogota,Gasolina,3038
+2025-05-01,Bogota,Hibridos,2682
+2025-05-01,Costa atlantica,Diesel,224
+2025-05-01,Costa atlantica,Electricos,20
+2025-05-01,Costa atlantica,Gasolina,1210
+2025-05-01,Costa atlantica,Hibridos,278
+2025-05-01,Occidente y centro,Diesel,326
+2025-05-01,Occidente y centro,Electricos,134
+2025-05-01,Occidente y centro,Gasolina,1568
+2025-05-01,Occidente y centro,Hibridos,549
+2025-05-01,Oriente,Diesel,497
+2025-05-01,Oriente,Electricos,57
+2025-05-01,Oriente,Gasolina,1186
+2025-05-01,Oriente,Hibridos,476
+2025-05-01,Resto del pais,Diesel,53
+2025-05-01,Resto del pais,Gasolina,164
+2025-05-01,Resto del pais,Hibridos,39
+2025-06-01,Antioquia y eje,Diesel,553
+2025-06-01,Antioquia y eje,Electricos,244
+2025-06-01,Antioquia y eje,Gasolina,2338
+2025-06-01,Antioquia y eje,Hibridos,1047
+2025-06-01,Bogota,Diesel,1245
+2025-06-01,Bogota,Electricos,732
+2025-06-01,Bogota,Gasolina,3351
+2025-06-01,Bogota,Hibridos,2319
+2025-06-01,Costa atlantica,Diesel,203
+2025-06-01,Costa atlantica,Electricos,23
+2025-06-01,Costa atlantica,Gasolina,1119
+2025-06-01,Costa atlantica,Hibridos,225
+2025-06-01,Occidente y centro,Diesel,288
+2025-06-01,Occidente y centro,Electricos,92
+2025-06-01,Occidente y centro,Gasolina,1447
+2025-06-01,Occidente y centro,Hibridos,451
+2025-06-01,Oriente,Diesel,347
+2025-06-01,Oriente,Electricos,52
+2025-06-01,Oriente,Gasolina,1182
+2025-06-01,Oriente,Hibridos,473
+2025-06-01,Resto del pais,Diesel,51
+2025-06-01,Resto del pais,Gasolina,129
+2025-06-01,Resto del pais,Hibridos,36
+2025-07-01,Antioquia y eje,Diesel,705
+2025-07-01,Antioquia y eje,Electricos,397
+2025-07-01,Antioquia y eje,Gasolina,2698
+2025-07-01,Antioquia y eje,Hibridos,1735
+2025-07-01,Bogota,Diesel,1523
+2025-07-01,Bogota,Electricos,1039
+2025-07-01,Bogota,Gasolina,3696
+2025-07-01,Bogota,Hibridos,3730
+2025-07-01,Costa atlantica,Diesel,259
+2025-07-01,Costa atlantica,Electricos,44
+2025-07-01,Costa atlantica,Gasolina,1429
+2025-07-01,Costa atlantica,Hibridos,394
+2025-07-01,Occidente y centro,Diesel,306
+2025-07-01,Occidente y centro,Electricos,154
+2025-07-01,Occidente y centro,Gasolina,1762
+2025-07-01,Occidente y centro,Hibridos,839
+2025-07-01,Oriente,Diesel,462
+2025-07-01,Oriente,Electricos,90
+2025-07-01,Oriente,Gasolina,1565
+2025-07-01,Oriente,Hibridos,732
+2025-07-01,Resto del pais,Diesel,48
+2025-07-01,Resto del pais,Electricos,3
+2025-07-01,Resto del pais,Gasolina,179
+2025-07-01,Resto del pais,Hibridos,48
+2025-08-01,Antioquia y eje,Diesel,653
+2025-08-01,Antioquia y eje,Electricos,467
+2025-08-01,Antioquia y eje,Gasolina,2511
+2025-08-01,Antioquia y eje,Hibridos,1413
+2025-08-01,Bogota,Diesel,1596
+2025-08-01,Bogota,Electricos,836
+2025-08-01,Bogota,Gasolina,3368
+2025-08-01,Bogota,Hibridos,3042
+2025-08-01,Costa atlantica,Diesel,292
+2025-08-01,Costa atlantica,Electricos,42
+2025-08-01,Costa atlantica,Gasolina,1292
+2025-08-01,Costa atlantica,Hibridos,338
+2025-08-01,Occidente y centro,Diesel,343
+2025-08-01,Occidente y centro,Electricos,238
+2025-08-01,Occidente y centro,Gasolina,1658
+2025-08-01,Occidente y centro,Hibridos,705
+2025-08-01,Oriente,Diesel,397
+2025-08-01,Oriente,Electricos,66
+2025-08-01,Oriente,Gasolina,1256
+2025-08-01,Oriente,Hibridos,516
+2025-08-01,Resto del pais,Diesel,50
+2025-08-01,Resto del pais,Gasolina,161
+2025-08-01,Resto del pais,Hibridos,54
+2025-09-01,Antioquia y eje,Diesel,884
+2025-09-01,Antioquia y eje,Electricos,545
+2025-09-01,Antioquia y eje,Gasolina,2973
+2025-09-01,Antioquia y eje,Hibridos,1540
+2025-09-01,Bogota,Diesel,1810
+2025-09-01,Bogota,Electricos,993
+2025-09-01,Bogota,Gasolina,3745
+2025-09-01,Bogota,Hibridos,3657
+2025-09-01,Costa atlantica,Diesel,338
+2025-09-01,Costa atlantica,Electricos,45
+2025-09-01,Costa atlantica,Gasolina,1491
+2025-09-01,Costa atlantica,Hibridos,345
+2025-09-01,Occidente y centro,Diesel,385
+2025-09-01,Occidente y centro,Electricos,199
+2025-09-01,Occidente y centro,Gasolina,1889
+2025-09-01,Occidente y centro,Hibridos,879
+2025-09-01,Oriente,Diesel,554
+2025-09-01,Oriente,Electricos,80
+2025-09-01,Oriente,Gasolina,1550
+2025-09-01,Oriente,Hibridos,634
+2025-09-01,Resto del pais,Diesel,51
+2025-09-01,Resto del pais,Electricos,2
+2025-09-01,Resto del pais,Gasolina,202
+2025-09-01,Resto del pais,Hibridos,50
+2025-10-01,Antioquia y eje,Diesel,881
+2025-10-01,Antioquia y eje,Electricos,465
+2025-10-01,Antioquia y eje,Gasolina,2905
+2025-10-01,Antioquia y eje,Hibridos,1524
+2025-10-01,Bogota,Diesel,1939
+2025-10-01,Bogota,Electricos,1228
+2025-10-01,Bogota,Gasolina,3869
+2025-10-01,Bogota,Hibridos,3515
+2025-10-01,Costa atlantica,Diesel,365
+2025-10-01,Costa atlantica,Electricos,69
+2025-10-01,Costa atlantica,Gasolina,1535
+2025-10-01,Costa atlantica,Hibridos,361
+2025-10-01,Occidente y centro,Diesel,459
+2025-10-01,Occidente y centro,Electricos,236
+2025-10-01,Occidente y centro,Gasolina,1772
+2025-10-01,Occidente y centro,Hibridos,847
+2025-10-01,Oriente,Diesel,706
+2025-10-01,Oriente,Electricos,92
+2025-10-01,Oriente,Gasolina,1537
+2025-10-01,Oriente,Hibridos,607
+2025-10-01,Resto del pais,Diesel,54
+2025-10-01,Resto del pais,Electricos,1
+2025-10-01,Resto del pais,Gasolina,195
+2025-10-01,Resto del pais,Hibridos,50
+2025-11-01,Antioquia y eje,Diesel,774
+2025-11-01,Antioquia y eje,Electricos,429
+2025-11-01,Antioquia y eje,Gasolina,2788
+2025-11-01,Antioquia y eje,Hibridos,1165
+2025-11-01,Bogota,Diesel,1629
+2025-11-01,Bogota,Electricos,1204
+2025-11-01,Bogota,Gasolina,3769
+2025-11-01,Bogota,Hibridos,3447
+2025-11-01,Costa atlantica,Diesel,275
+2025-11-01,Costa atlantica,Electricos,73
+2025-11-01,Costa atlantica,Gasolina,1593
+2025-11-01,Costa atlantica,Hibridos,319
+2025-11-01,Occidente y centro,Diesel,294
+2025-11-01,Occidente y centro,Electricos,214
+2025-11-01,Occidente y centro,Gasolina,1556
+2025-11-01,Occidente y centro,Hibridos,748
+2025-11-01,Oriente,Diesel,466
+2025-11-01,Oriente,Electricos,93
+2025-11-01,Oriente,Gasolina,1550
+2025-11-01,Oriente,Hibridos,463
+2025-11-01,Resto del pais,Diesel,44
+2025-11-01,Resto del pais,Electricos,3
+2025-11-01,Resto del pais,Gasolina,220
+2025-11-01,Resto del pais,Hibridos,37
+2025-12-01,Antioquia y eje,Diesel,910
+2025-12-01,Antioquia y eje,Electricos,683
+2025-12-01,Antioquia y eje,Gasolina,2968
+2025-12-01,Antioquia y eje,Hibridos,1428
+2025-12-01,Bogota,Diesel,2240
+2025-12-01,Bogota,Electricos,2062
+2025-12-01,Bogota,Gasolina,4501
+2025-12-01,Bogota,Hibridos,4897
+2025-12-01,Costa atlantica,Diesel,398
+2025-12-01,Costa atlantica,Electricos,75
+2025-12-01,Costa atlantica,Gasolina,1988
+2025-12-01,Costa atlantica,Hibridos,483
+2025-12-01,Occidente y centro,Diesel,498
+2025-12-01,Occidente y centro,Electricos,301
+2025-12-01,Occidente y centro,Gasolina,2167
+2025-12-01,Occidente y centro,Hibridos,954
+2025-12-01,Oriente,Diesel,690
+2025-12-01,Oriente,Electricos,116
+2025-12-01,Oriente,Gasolina,1744
+2025-12-01,Oriente,Hibridos,569
+2025-12-01,Resto del pais,Diesel,62
+2025-12-01,Resto del pais,Electricos,4
+2025-12-01,Resto del pais,Gasolina,255
+2025-12-01,Resto del pais,Hibridos,56
+2026-01-01,Antioquia y eje,Diesel,893
+2026-01-01,Antioquia y eje,Electricos,446
+2026-01-01,Antioquia y eje,Gasolina,2297
+2026-01-01,Antioquia y eje,Hibridos,1139
+2026-01-01,Bogota,Diesel,1653
+2026-01-01,Bogota,Electricos,996
+2026-01-01,Bogota,Gasolina,2618
+2026-01-01,Bogota,Hibridos,2720
+2026-01-01,Costa atlantica,Diesel,346
+2026-01-01,Costa atlantica,Electricos,47
+2026-01-01,Costa atlantica,Gasolina,1309
+2026-01-01,Costa atlantica,Hibridos,361
+2026-01-01,Occidente y centro,Diesel,316
+2026-01-01,Occidente y centro,Electricos,178
+2026-01-01,Occidente y centro,Gasolina,1356
+2026-01-01,Occidente y centro,Hibridos,691
+2026-01-01,Oriente,Diesel,403
+2026-01-01,Oriente,Electricos,88
+2026-01-01,Oriente,Gasolina,1189
+2026-01-01,Oriente,Hibridos,476
+2026-01-01,Resto del pais,Diesel,46
+2026-01-01,Resto del pais,Electricos,5
+2026-01-01,Resto del pais,Gasolina,163
+2026-01-01,Resto del pais,Hibridos,52
+2026-02-01,Antioquia y eje,Diesel,1293
+2026-02-01,Antioquia y eje,Electricos,632
+2026-02-01,Antioquia y eje,Gasolina,2698
+2026-02-01,Antioquia y eje,Hibridos,1344
+2026-02-01,Bogota,Diesel,2622
+2026-02-01,Bogota,Electricos,1467
+2026-02-01,Bogota,Gasolina,3346
+2026-02-01,Bogota,Hibridos,3397
+2026-02-01,Costa atlantica,Diesel,371
+2026-02-01,Costa atlantica,Electricos,64
+2026-02-01,Costa atlantica,Gasolina,1394
+2026-02-01,Costa atlantica,Hibridos,346
+2026-02-01,Occidente y centro,Diesel,456
+2026-02-01,Occidente y centro,Electricos,222
+2026-02-01,Occidente y centro,Gasolina,1456
+2026-02-01,Occidente y centro,Hibridos,863
+2026-02-01,Oriente,Diesel,651
+2026-02-01,Oriente,Electricos,111
+2026-02-01,Oriente,Gasolina,1349
+2026-02-01,Oriente,Hibridos,563
+2026-02-01,Resto del pais,Diesel,56
+2026-02-01,Resto del pais,Electricos,3
+2026-02-01,Resto del pais,Gasolina,256
+2026-02-01,Resto del pais,Hibridos,89
+2026-03-01,Antioquia y eje,Diesel,1067
+2026-03-01,Antioquia y eje,Electricos,1419
+2026-03-01,Antioquia y eje,Gasolina,2683
+2026-03-01,Antioquia y eje,Hibridos,1497
+2026-03-01,Bogota,Diesel,1744
+2026-03-01,Bogota,Electricos,3172
+2026-03-01,Bogota,Gasolina,3366
+2026-03-01,Bogota,Hibridos,3887
+2026-03-01,Costa atlantica,Diesel,296
+2026-03-01,Costa atlantica,Electricos,74
+2026-03-01,Costa atlantica,Gasolina,1724
+2026-03-01,Costa atlantica,Hibridos,502
+2026-03-01,Occidente y centro,Diesel,385
+2026-03-01,Occidente y centro,Electricos,281
+2026-03-01,Occidente y centro,Gasolina,1767
+2026-03-01,Occidente y centro,Hibridos,1068
+2026-03-01,Oriente,Diesel,579
+2026-03-01,Oriente,Electricos,139
+2026-03-01,Oriente,Gasolina,1483
+2026-03-01,Oriente,Hibridos,629
+2026-03-01,Resto del pais,Diesel,74
+2026-03-01,Resto del pais,Electricos,2
+2026-03-01,Resto del pais,Gasolina,195
+2026-03-01,Resto del pais,Hibridos,59

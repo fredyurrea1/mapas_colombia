@@ -1,4 +1,4 @@
-# Grafica ventas de carros 2025 por departamento y regional Allianz.
+# Grafica ventas de carros hasta marzo de 2026 por departamento y regional Allianz.
 #
 # Instrucciones:
 # 1. Poner este script en el mismo directorio de los archivos:
@@ -21,7 +21,8 @@ library(scales)
 
 archivo_ventas <- "tabla_maestra.csv"
 archivo_departamentos <- "departamentos_colombia.shp"
-anio_objetivo <- 2025
+periodo_fin <- 202603
+etiqueta_periodo <- "enero 2025 a marzo 2026"
 
 archivos_requeridos <- c(archivo_ventas, archivo_departamentos)
 faltantes <- archivos_requeridos[!file.exists(archivos_requeridos)]
@@ -115,11 +116,12 @@ regionales_departamento <- tribble(
   )
 
 # -------------------------------------------------------------------------
-# 4. Agregar ventas 2025 por departamento y regional
+# 4. Agregar ventas por departamento y regional hasta marzo de 2026
 # -------------------------------------------------------------------------
 
 ventas_2025 <- ventas %>%
-  filter(anio == anio_objetivo) %>%
+  mutate(periodo = as.integer(periodo)) %>%
+  filter(periodo <= periodo_fin) %>%
   mutate(
     unidades = as.numeric(unidades),
     depto_key = normalizar_depto(limpiar_texto(departamento))
@@ -164,7 +166,7 @@ departamentos_ventas_no_cruzan_shp <- ventas_departamento %>%
 print("Departamentos del shapefile sin regional asignada:")
 print(departamentos_sin_regional)
 
-print("Departamentos del shapefile sin ventas 2025:")
+print("Departamentos del shapefile sin ventas en el periodo:")
 print(departamentos_sin_ventas)
 
 print("Departamentos de tabla_maestra.csv que no cruzan con shapefile:")
@@ -235,7 +237,7 @@ puntos_departamentos <- st_point_on_surface(departamentos_ventas)
 puntos_regionales <- st_point_on_surface(regionales_mapa)
 
 # -------------------------------------------------------------------------
-# 6. Mapa de ventas 2025 por departamento
+# 6. Mapa de ventas por departamento
 # -------------------------------------------------------------------------
 
 mapa_ventas_2025_departamento <- ggplot() +
@@ -260,19 +262,25 @@ mapa_ventas_2025_departamento <- ggplot() +
   scale_fill_viridis_c(
     option = "C",
     trans = "sqrt",
-    labels = label_number(big.mark = ".", decimal.mark = ",")
+    labels = label_number(big.mark = ".", decimal.mark = ","),
+    guide = guide_colorbar(
+      direction = "vertical",
+      barheight = grid::unit(70, "mm"),
+      barwidth = grid::unit(5, "mm")
+    )
   ) +
   labs(
     title = "Ventas de carros por departamento",
-    subtitle = paste0("Unidades vendidas en ", anio_objetivo),
+    subtitle = paste0("Unidades vendidas, ", etiqueta_periodo),
     fill = "Ventas"
   ) +
-  theme_void()
+  theme_void() +
+  theme(legend.position = "right")
 
 print(mapa_ventas_2025_departamento)
 
 # -------------------------------------------------------------------------
-# 7. Mapa de ventas 2025 por regional Allianz
+# 7. Mapa de ventas por regional Allianz
 # -------------------------------------------------------------------------
 
 mapa_ventas_2025_regional <- ggplot() +
@@ -307,14 +315,20 @@ mapa_ventas_2025_regional <- ggplot() +
   scale_fill_viridis_c(
     option = "C",
     trans = "sqrt",
-    labels = label_number(big.mark = ".", decimal.mark = ",")
+    labels = label_number(big.mark = ".", decimal.mark = ","),
+    guide = guide_colorbar(
+      direction = "vertical",
+      barheight = grid::unit(70, "mm"),
+      barwidth = grid::unit(5, "mm")
+    )
   ) +
   labs(
     title = "Ventas de carros por regional Allianz",
-    subtitle = paste0("Unidades vendidas en ", anio_objetivo),
+    subtitle = paste0("Unidades vendidas, ", etiqueta_periodo),
     fill = "Ventas"
   ) +
-  theme_void()
+  theme_void() +
+  theme(legend.position = "right")
 
 print(mapa_ventas_2025_regional)
 
@@ -323,7 +337,7 @@ print(mapa_ventas_2025_regional)
 # -------------------------------------------------------------------------
 
 ggsave(
-  "mapa_ventas_2025_departamento.png",
+  "mapa_ventas_hasta_marzo_2026_departamento.png",
   mapa_ventas_2025_departamento,
   width = 9,
   height = 11,
@@ -331,7 +345,7 @@ ggsave(
 )
 
 ggsave(
-  "mapa_ventas_2025_regional_allianz.png",
+  "mapa_ventas_hasta_marzo_2026_regional_allianz.png",
   mapa_ventas_2025_regional,
   width = 9,
   height = 11,
@@ -340,40 +354,40 @@ ggsave(
 
 write_csv(
   tabla_ventas_2025_departamento_regional,
-  "tabla_ventas_2025_departamento_regional.csv"
+  "tabla_ventas_hasta_marzo_2026_departamento_regional.csv"
 )
 
 write_csv(
   tabla_ventas_2025_regional,
-  "tabla_ventas_2025_regional.csv"
+  "tabla_ventas_hasta_marzo_2026_regional.csv"
 )
 
 write_csv(
   tabla_ventas_2025_marca,
-  "tabla_ventas_2025_marca.csv"
+  "tabla_ventas_hasta_marzo_2026_marca.csv"
 )
 
 write_csv(
   tabla_ventas_2025_tecnologia,
-  "tabla_ventas_2025_tecnologia.csv"
+  "tabla_ventas_hasta_marzo_2026_tecnologia.csv"
 )
 
 write_csv(
   tabla_ventas_2025_marca_regional,
-  "tabla_ventas_2025_marca_regional.csv"
+  "tabla_ventas_hasta_marzo_2026_marca_regional.csv"
 )
 
 write_csv(
   departamentos_sin_regional,
-  "departamentos_sin_regional_ventas_2025.csv"
+  "departamentos_sin_regional_ventas_hasta_marzo_2026.csv"
 )
 
 write_csv(
   departamentos_sin_ventas,
-  "departamentos_sin_ventas_2025.csv"
+  "departamentos_sin_ventas_hasta_marzo_2026.csv"
 )
 
 write_csv(
   departamentos_ventas_no_cruzan_shp,
-  "departamentos_ventas_2025_no_cruzan_shp.csv"
+  "departamentos_ventas_hasta_marzo_2026_no_cruzan_shp.csv"
 )

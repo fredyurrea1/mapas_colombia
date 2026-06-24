@@ -253,16 +253,52 @@ tabla_etapa <- leads %>%
   mutate(participacion = leads / sum(leads))
 
 tabla_fuente_utm <- leads %>%
-  count(fuente_utm, name = "leads", sort = TRUE) %>%
-  mutate(participacion = leads / sum(leads))
+  group_by(fuente_utm) %>%
+  summarise(
+    leads = n(),
+    emitidos = sum(emitido, na.rm = TRUE),
+    perdidos = sum(perdido, na.rm = TRUE),
+    tasa_emision = emitidos / leads,
+    .groups = "drop"
+  ) %>%
+  mutate(participacion = leads / sum(leads)) %>%
+  arrange(desc(leads))
 
 tabla_medio_utm <- leads %>%
-  count(medio_utm, name = "leads", sort = TRUE) %>%
-  mutate(participacion = leads / sum(leads))
+  group_by(medio_utm) %>%
+  summarise(
+    leads = n(),
+    emitidos = sum(emitido, na.rm = TRUE),
+    perdidos = sum(perdido, na.rm = TRUE),
+    tasa_emision = emitidos / leads,
+    .groups = "drop"
+  ) %>%
+  mutate(participacion = leads / sum(leads)) %>%
+  arrange(desc(leads))
 
 tabla_campana_utm <- leads %>%
-  count(campana_utm, name = "leads", sort = TRUE) %>%
-  mutate(participacion = leads / sum(leads))
+  group_by(campana_utm) %>%
+  summarise(
+    leads = n(),
+    emitidos = sum(emitido, na.rm = TRUE),
+    perdidos = sum(perdido, na.rm = TRUE),
+    tasa_emision = emitidos / leads,
+    .groups = "drop"
+  ) %>%
+  mutate(participacion = leads / sum(leads)) %>%
+  arrange(desc(leads))
+
+tabla_utm_completa <- leads %>%
+  group_by(fuente_utm, medio_utm, campana_utm) %>%
+  summarise(
+    leads = n(),
+    emitidos = sum(emitido, na.rm = TRUE),
+    perdidos = sum(perdido, na.rm = TRUE),
+    tasa_emision = emitidos / leads,
+    .groups = "drop"
+  ) %>%
+  mutate(participacion = leads / sum(leads)) %>%
+  arrange(desc(leads), desc(emitidos))
 
 tabla_ciudad <- leads %>%
   count(ciudad, depto_key, regional, name = "leads", sort = TRUE)
@@ -588,6 +624,7 @@ write_csv(tabla_etapa, "tabla_leads_etapa.csv")
 write_csv(tabla_fuente_utm, "tabla_leads_fuente_utm.csv")
 write_csv(tabla_medio_utm, "tabla_leads_medio_utm.csv")
 write_csv(tabla_campana_utm, "tabla_leads_campana_utm.csv")
+write_csv(tabla_utm_completa, "tabla_leads_utm_completa.csv")
 write_csv(tabla_ciudad, "tabla_leads_ciudad.csv")
 write_csv(tabla_departamento, "tabla_leads_departamento.csv")
 write_csv(tabla_regional, "tabla_leads_regional.csv")

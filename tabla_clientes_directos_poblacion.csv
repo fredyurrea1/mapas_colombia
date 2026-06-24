@@ -1,0 +1,217 @@
+poblacion,departamento,depto_key,regional,registros,clientes,polizas
+Bogota,Bogota,BOGOTA D C,Bogota,2312,2268,2268
+Medellin,Antioquia,ANTIOQUIA,Antioquia y eje,474,467,467
+Cali,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,320,315,317
+Barranquilla,Atlantico,ATLANTICO,Costa atlantica,208,204,205
+Envigado,Antioquia,ANTIOQUIA,Antioquia y eje,93,93,92
+Chia,Cundinamarca,CUNDINAMARCA,Bogota,84,81,84
+Cajica,Cundinamarca,CUNDINAMARCA,Bogota,70,69,69
+Itagui,Antioquia,ANTIOQUIA,Antioquia y eje,59,59,59
+Pereira,Risaralda,RISARALDA,Antioquia y eje,57,56,57
+Sabaneta,Antioquia,ANTIOQUIA,Antioquia y eje,55,54,54
+Bucaramanga,Santander,SANTANDER,Oriente,55,53,53
+Ibague,Tolima,TOLIMA,Occidente y centro,53,53,53
+Soacha,Cundinamarca,CUNDINAMARCA,Bogota,53,53,53
+Bello,Antioquia,ANTIOQUIA,Antioquia y eje,52,52,52
+Mosquera,Cundinamarca,CUNDINAMARCA,Bogota,50,50,50
+Cartagena,Bolivar,BOLIVAR,Costa atlantica,47,47,47
+Manizales,Caldas,CALDAS,Antioquia y eje,45,45,44
+Villavicencio,Meta,META,Oriente,48,45,48
+Zipaquira,Cundinamarca,CUNDINAMARCA,Bogota,37,37,37
+Rionegro,Antioquia,ANTIOQUIA,Antioquia y eje,36,36,36
+Palmira,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,31,31,31
+Madrid,Cundinamarca,CUNDINAMARCA,Bogota,30,30,30
+Armenia,Quindio,QUINDIO,Antioquia y eje,29,28,28
+Floridablanca,Santander,SANTANDER,Oriente,27,27,25
+Popayan,Cauca,CAUCA,Occidente y centro,28,27,28
+Santa Marta,Magdalena,MAGDALENA,Costa atlantica,26,26,26
+Cucuta,Norte de Santander,NORTE DE SANTANDER,Oriente,23,23,23
+Funza,Cundinamarca,CUNDINAMARCA,Bogota,22,22,22
+Tunja,Boyaca,BOYACA,Oriente,23,22,23
+Facatativa,Cundinamarca,CUNDINAMARCA,Bogota,19,19,19
+Soledad,Atlantico,ATLANTICO,Costa atlantica,19,19,19
+Jamundi,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,19,18,19
+La Estrella,Antioquia,ANTIOQUIA,Antioquia y eje,18,18,17
+Valledupar,Cesar,CESAR,Costa atlantica,19,17,18
+Neiva,Huila,HUILA,Occidente y centro,15,15,15
+Fusagasuga,Cundinamarca,CUNDINAMARCA,Bogota,14,14,14
+Monteria,Cordoba,CORDOBA,Costa atlantica,13,13,13
+La Ceja,Antioquia,ANTIOQUIA,Antioquia y eje,13,12,13
+Tocancipa,Cundinamarca,CUNDINAMARCA,Bogota,12,12,12
+Duitama,Boyaca,BOYACA,Oriente,11,11,10
+Sogamoso,Boyaca,BOYACA,Oriente,11,11,11
+Puerto Colombia,Atlantico,ATLANTICO,Costa atlantica,10,10,10
+Barrancabermeja,Santander,SANTANDER,Oriente,9,9,9
+Copacabana,Antioquia,ANTIOQUIA,Antioquia y eje,9,9,9
+Cota,Cundinamarca,CUNDINAMARCA,Bogota,11,9,11
+El Carmen De Viboral,Antioquia,ANTIOQUIA,Antioquia y eje,9,9,9
+Caldas,Antioquia,ANTIOQUIA,Antioquia y eje,9,8,9
+Cartago,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,8,8,8
+Dosquebradas,Risaralda,RISARALDA,Antioquia y eje,8,8,8
+Girardot,Cundinamarca,CUNDINAMARCA,Bogota,8,8,8
+Marinilla,Antioquia,ANTIOQUIA,Antioquia y eje,8,8,8
+Tenjo,Cundinamarca,CUNDINAMARCA,Bogota,8,8,7
+Tulua,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,8,8,8
+Dos Quebradas,Risaralda,RISARALDA,Antioquia y eje,7,7,7
+Pasto,Narino,NARINO,Occidente y centro,7,7,7
+Riohacha,La Guajira,LA GUAJIRA,Costa atlantica,7,7,7
+Candelaria,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,6,6,6
+Guadalajara De Buga,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,6,6,6
+Guarne,Antioquia,ANTIOQUIA,Antioquia y eje,6,6,6
+La Calera,Cundinamarca,CUNDINAMARCA,Bogota,6,6,6
+Giron,Santander,SANTANDER,Oriente,6,5,6
+Ipiales,Narino,NARINO,Occidente y centro,5,5,5
+Paipa,Boyaca,BOYACA,Oriente,5,5,5
+Piedecuesta,Santander,SANTANDER,Oriente,5,5,5
+Retiro,Antioquia,ANTIOQUIA,Antioquia y eje,6,5,6
+Santander De Quilichao,Cauca,CAUCA,Occidente y centro,5,5,5
+Yopal,Casanare,CASANARE,Resto del pais,5,5,5
+Acacias,Meta,META,Oriente,4,4,4
+Carepa,Antioquia,ANTIOQUIA,Antioquia y eje,4,4,4
+Extranjero,Vichada,VICHADA,Resto del pais,4,4,4
+Puerto Boyaca,Boyaca,BOYACA,Oriente,4,4,4
+Sopo,Cundinamarca,CUNDINAMARCA,Bogota,4,4,4
+Turbaco,Bolivar,BOLIVAR,Costa atlantica,4,4,4
+Villamaria,Caldas,CALDAS,Antioquia y eje,4,4,4
+Villeta,Cundinamarca,CUNDINAMARCA,Bogota,5,4,5
+Yumbo,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,4,4,4
+Zarzal,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,4,4,4
+Anserma,Caldas,CALDAS,Antioquia y eje,3,3,3
+Apartado,Antioquia,ANTIOQUIA,Antioquia y eje,3,3,3
+Baranoa,Atlantico,ATLANTICO,Costa atlantica,3,3,3
+Barbosa,Antioquia,ANTIOQUIA,Antioquia y eje,3,3,3
+Buenaventura,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,3,3,3
+Circasia,Quindio,QUINDIO,Antioquia y eje,3,3,3
+La Virginia,Risaralda,RISARALDA,Antioquia y eje,3,3,3
+Lorica,Cordoba,CORDOBA,Costa atlantica,3,3,3
+Ocaña,Norte de Santander,NORTE DE SANTANDER,Oriente,3,3,3
+Pitalito,Huila,HUILA,Occidente y centro,3,3,3
+Puerto Carreño,Vichada,VICHADA,Resto del pais,3,3,3
+Restrepo,Meta,META,Oriente,4,3,4
+San Gil,Santander,SANTANDER,Oriente,3,3,3
+Tabio,Cundinamarca,CUNDINAMARCA,Bogota,3,3,3
+Villa Del Rosario,Norte de Santander,NORTE DE SANTANDER,Oriente,3,3,3
+Amaga,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Andes,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Barichara,Santander,SANTANDER,Oriente,2,2,2
+Bogota,Vichada,VICHADA,Resto del pais,2,2,2
+Bugalagrande,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,2,2,2
+Caicedonia,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,2,2,2
+Calarca,Quindio,QUINDIO,Antioquia y eje,2,2,2
+Caloto,Cauca,CAUCA,Occidente y centro,2,2,2
+Caucasia,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Chiquinquira,Boyaca,BOYACA,Oriente,2,2,2
+El Cerrito,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,2,2,2
+El Santuario,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Flandes,Tolima,TOLIMA,Occidente y centro,2,2,2
+Florencia,Caqueta,CAQUETA,Resto del pais,2,2,2
+Gachancipa,Cundinamarca,CUNDINAMARCA,Bogota,2,2,2
+Ginebra,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,2,2,2
+Guasca,Cundinamarca,CUNDINAMARCA,Bogota,2,2,2
+Guavata,Santander,SANTANDER,Oriente,2,2,2
+Jardin,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+La Mesa,Cundinamarca,CUNDINAMARCA,Bogota,2,2,2
+La Tebaida,Quindio,QUINDIO,Antioquia y eje,2,2,2
+Los Patios,Norte de Santander,NORTE DE SANTANDER,Oriente,2,2,2
+Magangue,Bolivar,BOLIVAR,Costa atlantica,2,2,2
+Melgar,Tolima,TOLIMA,Occidente y centro,2,2,2
+Miranda,Cauca,CAUCA,Occidente y centro,2,2,2
+Pamplona,Norte de Santander,NORTE DE SANTANDER,Oriente,2,2,2
+Puerto Berrio,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Quibdo,Choco,CHOCO,Resto del pais,2,2,2
+Quimbaya,Quindio,QUINDIO,Antioquia y eje,2,2,2
+San Jose Del Guaviare,Guaviare,GUAVIARE,Resto del pais,2,2,2
+San Vicente,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Santa Rosa De Cabal,Risaralda,RISARALDA,Antioquia y eje,2,2,2
+Santo Tomas,Atlantico,ATLANTICO,Costa atlantica,2,2,2
+Segovia,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Sevilla,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,2,2,2
+Sibate,Cundinamarca,CUNDINAMARCA,Bogota,2,2,2
+Sonson,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Tumaco,Narino,NARINO,Occidente y centro,2,2,2
+Ubate,Cundinamarca,CUNDINAMARCA,Bogota,2,2,2
+Villa De Leyva,Boyaca,BOYACA,Oriente,2,2,2
+Yarumal,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Yolombo,Antioquia,ANTIOQUIA,Antioquia y eje,2,2,2
+Agua De Dios,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Aguazul,Casanare,CASANARE,Resto del pais,1,1,1
+Anapoima,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Andalucia,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,1,1,1
+Ansermanuevo,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,1,1,1
+Aranzazu,Caldas,CALDAS,Antioquia y eje,1,1,1
+Arauca,Arauca,ARAUCA,Resto del pais,1,1,1
+Ariguani,Magdalena,MAGDALENA,Costa atlantica,1,1,1
+Arjona,Bolivar,BOLIVAR,Costa atlantica,1,1,1
+Belen,Boyaca,BOYACA,Oriente,1,1,1
+Belmira,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Bojaca,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Bosconia,Cesar,CESAR,Costa atlantica,1,1,1
+Castilla La Nueva,Meta,META,Oriente,1,1,1
+Chaparral,Tolima,TOLIMA,Occidente y centro,2,1,2
+Chigorodo,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Chinchina,Caldas,CALDAS,Antioquia y eje,1,1,1
+Chipaque,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Choachi,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Choconta,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Ciudad Bolivar,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Cogua,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Colon,Putumayo,PUTUMAYO,Resto del pais,1,1,1
+Concordia,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Don Matias,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+El Colegio,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+El Dovio,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,1,1,1
+Entrerrios,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Espinal,Tolima,TOLIMA,Occidente y centro,1,1,1
+Gacheta,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Galapa,Atlantico,ATLANTICO,Costa atlantica,1,1,1
+Garagoa,Boyaca,BOYACA,Oriente,1,1,1
+Gigante,Huila,HUILA,Occidente y centro,1,1,1
+Girardota,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Gomez Plata,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Guamal,Meta,META,Oriente,1,1,1
+Guatape,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Honda,Tolima,TOLIMA,Occidente y centro,1,1,1
+Juan De Acosta,Atlantico,ATLANTICO,Costa atlantica,1,1,1
+La Dorada,Caldas,CALDAS,Antioquia y eje,1,1,1
+La Jagua De Ibirico,Cesar,CESAR,Costa atlantica,1,1,1
+Mariquita,Tolima,TOLIMA,Occidente y centro,1,1,1
+Marquetalia,Caldas,CALDAS,Antioquia y eje,1,1,1
+Mocoa,Putumayo,PUTUMAYO,Resto del pais,1,1,1
+Montelibano,Cordoba,CORDOBA,Costa atlantica,1,1,1
+Murillo,Tolima,TOLIMA,Occidente y centro,2,1,2
+Neira,Caldas,CALDAS,Antioquia y eje,1,1,1
+Nilo,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Pacho,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Pelaya,Cesar,CESAR,Costa atlantica,1,1,1
+Pradera,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,1,1,1
+Puente Nacional,Santander,SANTANDER,Oriente,1,1,1
+Puerto Asis,Putumayo,PUTUMAYO,Resto del pais,1,1,1
+Puerto Lopez,Meta,META,Oriente,1,1,1
+Puerto Tejada,Cauca,CAUCA,Occidente y centro,1,1,1
+Puerto Triunfo,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Purificacion,Tolima,TOLIMA,Occidente y centro,1,1,1
+Quinchia,Risaralda,RISARALDA,Antioquia y eje,1,1,1
+Ricaurte,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Roldanillo,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,1,1,1
+Sabanagrande,Atlantico,ATLANTICO,Costa atlantica,1,1,1
+Sachica,Boyaca,BOYACA,Oriente,1,1,1
+Salamina,Caldas,CALDAS,Antioquia y eje,1,1,1
+Samaca,Boyaca,BOYACA,Oriente,1,1,1
+San Agustin,Huila,HUILA,Occidente y centro,1,1,1
+San Juan De Rio Seco,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+San Martin,Cesar,CESAR,Costa atlantica,1,1,1
+San Martin De Loba,Bolivar,BOLIVAR,Costa atlantica,1,1,1
+Silvania,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Silvia,Cauca,CAUCA,Occidente y centro,1,1,1
+Sincelejo,Sucre,SUCRE,Costa atlantica,1,1,1
+Socorro,Santander,SANTANDER,Oriente,1,1,1
+Suarez,Tolima,TOLIMA,Occidente y centro,1,1,1
+Susa,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1
+Sutamarchan,Boyaca,BOYACA,Oriente,1,1,1
+Tibasosa,Boyaca,BOYACA,Oriente,1,1,1
+Timana,Huila,HUILA,Occidente y centro,1,1,1
+Tubara,Atlantico,ATLANTICO,Costa atlantica,1,1,1
+Tunungua,Boyaca,BOYACA,Oriente,1,1,1
+Ulloa,Valle del Cauca,VALLE DEL CAUCA,Occidente y centro,1,1,1
+Venecia,Antioquia,ANTIOQUIA,Antioquia y eje,1,1,1
+Villapinzon,Cundinamarca,CUNDINAMARCA,Bogota,1,1,1

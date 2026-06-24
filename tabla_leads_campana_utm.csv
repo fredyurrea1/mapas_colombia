@@ -1,18 +1,18 @@
-campana_utm,leads,participacion
-canal digital autos,14504,0.464128
-sin dato,7021,0.224672
-performance max digital autos,5348,0.171136
-quiero un seguro,3312,0.105984
-canal_digital_autos,317,0.010144
-performance max digital autos competencia,276,0.008832
-demandgen digital autos,213,0.006816
-performance max digital hogar,123,0.003936
-canal digital hogar,49,0.001568
-canal digital autos prueba,32,0.001024
-feria del automovil,23,7.36e-4
-always on seguros autos,14,4.48e-4
-canal_digital_autos_hotsale,11,3.52e-4
-canal digital autos hotsale,3,9.6e-5
-always-on,2,6.4e-5
-sem_allianz_canaldigital_trafico_diciembre,1,3.2e-5
-temas canal digital autos,1,3.2e-5
+campana_utm,leads,emitidos,perdidos,tasa_emision,participacion
+canal digital autos,14504,1303,13150,0.0898372862658577,0.464128
+sin dato,7021,1156,5823,0.16464891041162227,0.224672
+performance max digital autos,5348,497,4836,0.09293193717277487,0.171136
+quiero un seguro,3312,539,2747,0.1627415458937198,0.105984
+canal_digital_autos,317,22,292,0.0694006309148265,0.010144
+performance max digital autos competencia,276,27,248,0.09782608695652174,0.008832
+demandgen digital autos,213,9,203,0.04225352112676056,0.006816
+performance max digital hogar,123,19,103,0.15447154471544716,0.003936
+canal digital hogar,49,10,39,0.20408163265306123,0.001568
+canal digital autos prueba,32,2,30,0.0625,0.001024
+feria del automovil,23,3,20,0.13043478260869565,7.36e-4
+always on seguros autos,14,0,14,0,4.48e-4
+canal_digital_autos_hotsale,11,2,9,0.18181818181818182,3.52e-4
+canal digital autos hotsale,3,0,3,0,9.6e-5
+always-on,2,0,2,0,6.4e-5
+sem_allianz_canaldigital_trafico_diciembre,1,1,0,1,3.2e-5
+temas canal digital autos,1,0,1,0,3.2e-5

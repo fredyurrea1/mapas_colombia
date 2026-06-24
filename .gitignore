@@ -19,3 +19,6 @@ tabla_municipios_regional_*.csv
 municipios_runt_no_cruzan_shp_regional_*.csv
 tabla_resumen_municipios_regionales.csv
 Rplot.png
+shiny_app/r_libs/
+.Rhistory
+clientes_directos.xlsx

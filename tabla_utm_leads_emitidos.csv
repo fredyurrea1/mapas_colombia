@@ -1,0 +1,157 @@
+fuente_utm,medio_utm,campana_utm,leads,emitidos,perdidos,tasa_emision,participacion
+google,cpc,canal digital autos,14204,1256,12897,0.08842579555054914,0.454528
+google,pmax,performance max digital autos,5301,486,4800,0.09168081494057725,0.169632
+Orgánico,Sin dato,Sin dato,3734,472,3241,0.12640599892876273,0.119488
+web,boton,quiero un seguro,3277,528,2723,0.16112297833384193,0.104864
+contact,Sin dato,Sin dato,2164,346,1804,0.1598890942698706,0.069248
+facebook,meta,canal_digital_autos,317,22,292,0.0694006309148265,0.010144
+google,pmax competencia,performance max digital autos competencia,275,27,247,0.09818181818181818,0.0088
+google,Sin dato,Sin dato,246,84,161,0.34146341463414637,0.007872
+google,demand gen,demandgen digital autos,213,9,203,0.04225352112676056,0.006816
+referidos,Sin dato,Sin dato,211,67,141,0.3175355450236967,0.006752
+facebook,meta,canal digital autos,134,8,126,0.05970149253731343,0.004288
+google,pmax,performance max digital hogar,119,19,99,0.15966386554621848,0.003808
+contact,Cristian Lopez,Sin dato,104,32,72,0.3076923076923077,0.003328
+web,Sin dato,Sin dato,63,19,42,0.30158730158730157,0.002016
+contact,Catherine Agudelo,Sin dato,61,17,44,0.2786885245901639,0.001952
+contact,Julian Paez,Sin dato,52,10,42,0.19230769230769232,0.001664
+google,cpc,canal digital hogar,46,8,38,0.17391304347826086,0.001472
+adwords,cpc,canal digital autos,43,5,38,0.11627906976744186,0.001376
+contact,David Jimenez,Sin dato,40,6,34,0.15,0.00128
+contact,Jonny Ruz,Sin dato,32,12,20,0.375,0.001024
+google,cpc,canal digital autos prueba,32,2,30,0.0625,0.001024
+contact,Ivan Pedrozo,Sin dato,31,10,21,0.3225806451612903,9.92e-4
+contact,Janin Rubio,Sin dato,31,8,23,0.25806451612903225,9.92e-4
+contact,Ingrid Sierra,Sin dato,30,12,18,0.4,9.6e-4
+Sin dato,Sin dato,Sin dato,27,9,18,0.3333333333333333,8.64e-4
+contact,Luis Valderrama,Sin dato,24,4,20,0.16666666666666666,7.68e-4
+feria,link,feria del automovil,23,3,20,0.13043478260869565,7.36e-4
+Contact,Catherine Agudelo,Sin dato,13,3,10,0.23076923076923078,4.16e-4
+google,cpc,always on seguros autos,13,0,13,0,4.16e-4
+google,Ingrid Sierra,canal digital autos,12,5,7,0.4166666666666667,3.84e-4
+contact,cpc,canal digital autos,12,4,8,0.3333333333333333,3.84e-4
+contact,Nataly Chica,Sin dato,11,6,5,0.5454545454545454,3.52e-4
+Contact,Sin dato,Sin dato,11,4,7,0.36363636363636365,3.52e-4
+facebook,meta,canal_digital_autos_hotsale,11,2,9,0.18181818181818182,3.52e-4
+Orgánico,cpc,canal digital autos,10,4,6,0.4,3.2e-4
+Orgánico,boton,quiero un seguro,10,2,8,0.2,3.2e-4
+Contact,Cristian Lopez,Sin dato,9,3,6,0.3333333333333333,2.88e-4
+contact,Erika Cardona,Sin dato,8,4,4,0.5,2.56e-4
+Contact,Ingrid Sierra,Sin dato,8,3,5,0.375,2.56e-4
+google,David Jimenez,canal digital autos,8,1,7,0.125,2.56e-4
+colserauto,Sin dato,Sin dato,8,0,8,0,2.56e-4
+Contact,Julian Paez,Sin dato,7,3,4,0.42857142857142855,2.24e-4
+google,Luis Valderrama,canal digital autos,7,3,4,0.42857142857142855,2.24e-4
+Contact,David Jimenez,Sin dato,7,2,5,0.2857142857142857,2.24e-4
+Orgánico,Catherine Agudelo,Sin dato,7,2,5,0.2857142857142857,2.24e-4
+adwords,pmax,performance max digital autos,7,1,6,0.14285714285714285,2.24e-4
+contact,pmax,performance max digital autos,7,1,6,0.14285714285714285,2.24e-4
+Contact,Ivan Pedrozo,Sin dato,6,2,4,0.3333333333333333,1.92e-4
+web,cpc,canal digital autos,6,1,5,0.16666666666666666,1.92e-4
+Orgánico,David Jimenez,Sin dato,5,2,3,0.4,1.6e-4
+contact,Jonny Ruz,canal digital autos,5,2,3,0.4,1.6e-4
+contact,Julian Paez,canal digital autos,5,2,3,0.4,1.6e-4
+contact,ivan pedrozo,Sin dato,5,2,3,0.4,1.6e-4
+contact,ivan Pedrozo,Sin dato,5,1,4,0.2,1.6e-4
+google,Janin Rubio,canal digital autos,5,1,4,0.2,1.6e-4
+google,Julian Paez,canal digital autos,5,1,4,0.2,1.6e-4
+contact,Bayron Acero,Sin dato,5,0,5,0,1.6e-4
+contact,Ingrid Sierra,canal digital autos,4,3,1,0.75,1.28e-4
+contact,Daniel Arevalo,Sin dato,4,2,2,0.5,1.28e-4
+google,Ingrid Sierra,performance max digital autos,4,2,2,0.5,1.28e-4
+web,Ingrid Sierra,quiero un seguro,4,2,2,0.5,1.28e-4
+contact,Daniel Obando,Sin dato,4,1,3,0.25,1.28e-4
+contact,Ingrid Sierra,performance max digital autos,4,0,4,0,1.28e-4
+contact,Luis Valderrama,canal digital autos,4,0,4,0,1.28e-4
+facebook,Sin dato,Sin dato,4,0,4,0,1.28e-4
+google,Cristian Lopez,canal digital autos,4,0,4,0,1.28e-4
+orgánico,Sin dato,Sin dato,4,0,3,0,1.28e-4
+Orgánico,Ivan Pedrozo,Sin dato,3,2,1,0.6666666666666666,9.6e-5
+Orgánico,Janin Rubio,Sin dato,3,2,1,0.6666666666666666,9.6e-5
+referidos,cpc,canal digital autos,3,2,1,0.6666666666666666,9.6e-5
+Orgánico,Nataly Chica,Sin dato,3,1,2,0.3333333333333333,9.6e-5
+contact,Janin Rubio,canal digital autos,3,1,2,0.3333333333333333,9.6e-5
+contact,boton,quiero un seguro,3,1,2,0.3333333333333333,9.6e-5
+google,Catherine Agudelo,canal digital autos,3,1,2,0.3333333333333333,9.6e-5
+Contact,Nataly Chica,Sin dato,3,0,3,0,9.6e-5
+contact,ivan Pedrozo,canal digital autos,3,0,3,0,9.6e-5
+google,cpc,canal digital autos hotsale,3,0,3,0,9.6e-5
+google,ivan pedrozo,canal digital autos,3,0,3,0,9.6e-5
+web,ivan pedrozo,quiero un seguro,2,2,0,1,6.4e-5
+Contact,Jonny Ruz,Sin dato,2,1,1,0.5,6.4e-5
+Orgánico,pmax,performance max digital autos,2,1,1,0.5,6.4e-5
+contact,Catherine Agudelo,canal digital autos,2,1,1,0.5,6.4e-5
+contact,Cristian Lopez,canal digital autos,2,1,1,0.5,6.4e-5
+contact,Cristian Lopez,quiero un seguro,2,1,1,0.5,6.4e-5
+contact,Julian Paez,performance max digital autos,2,1,1,0.5,6.4e-5
+contact,Luis Valderrama,performance max digital autos,2,1,1,0.5,6.4e-5
+google,David Jimenez,performance max digital autos,2,1,1,0.5,6.4e-5
+google,Luis Valderrama,performance max digital autos,2,1,1,0.5,6.4e-5
+Contact,Erika Cardona,Sin dato,2,0,2,0,6.4e-5
+Contact,Janin Rubio,Sin dato,2,0,2,0,6.4e-5
+Orgánico,Cristian Lopez,Sin dato,2,0,2,0,6.4e-5
+Orgánico,Jonny Ruz,Sin dato,2,0,2,0,6.4e-5
+chatgpt.com,Sin dato,Sin dato,2,0,2,0,6.4e-5
+contact,Catherine Agudelo,performance max digital autos,2,0,2,0,6.4e-5
+contact,David Jimenez,canal digital autos,2,0,2,0,6.4e-5
+contact,Ivan Pedrozo,canal digital autos,2,0,2,0,6.4e-5
+contact,Luisa Angulo,Sin dato,2,0,2,0,6.4e-5
+feria,Sin dato,Sin dato,2,0,2,0,6.4e-5
+google,Ivan Pedrozo,canal digital autos,2,0,2,0,6.4e-5
+google,Janin Rubio,performance max digital autos,2,0,2,0,6.4e-5
+google,Jonny Ruz,canal digital autos,2,0,2,0,6.4e-5
+google,search,always-on,2,0,2,0,6.4e-5
+web,Cristian Lopez,quiero un seguro,2,0,2,0,6.4e-5
+web,Julian Paez,quiero un seguro,2,0,2,0,6.4e-5
+web,pmax,performance max digital autos,2,0,2,0,6.4e-5
+Contact,ivan pedrozo,Sin dato,1,1,0,1,3.2e-5
+Orgánico,ivan pedrozo,Sin dato,1,1,0,1,3.2e-5
+adwords,ppc,SEM_Allianz_Canaldigital_Trafico_diciembre,1,1,0,1,3.2e-5
+contact,Ivan Pedrozo,performance max digital autos,1,1,0,1,3.2e-5
+contact,Janin Rubio,quiero un seguro,1,1,0,1,3.2e-5
+facebook,meta,canal digital hogar,1,1,0,1,3.2e-5
+google,Catherine Agudelo,performance max digital autos,1,1,0,1,3.2e-5
+google,Luisa Angulo,canal digital autos,1,1,0,1,3.2e-5
+google,boton,quiero un seguro,1,1,0,1,3.2e-5
+web,Ivan Pedrozo,quiero un seguro,1,1,0,1,3.2e-5
+web,cpc,canal digital hogar,1,1,0,1,3.2e-5
+Colserauto,Sin dato,Sin dato,1,0,1,0,3.2e-5
+Colserauto,boton,quiero un seguro,1,0,1,0,3.2e-5
+Orgánico,Ingrid Sierra,Sin dato,1,0,1,0,3.2e-5
+Orgánico,Julian Paez,Sin dato,1,0,1,0,3.2e-5
+Orgánico,cpc,canal digital hogar,1,0,1,0,3.2e-5
+adwords,Sin dato,Sin dato,1,0,1,0,3.2e-5
+adwords,pmax,performance max digital hogar,1,0,1,0,3.2e-5
+contact,Adrianni Arcia,Sin dato,1,0,1,0,3.2e-5
+contact,Adrianni_Arcia,canal digital autos,1,0,1,0,3.2e-5
+contact,Camilo_Tavera,Sin dato,1,0,1,0,3.2e-5
+contact,Catherine Agudelo,quiero un seguro,1,0,1,0,3.2e-5
+contact,Daniel Obando,performance max digital autos,1,0,1,0,3.2e-5
+contact,Daniel Obando,quiero un seguro,1,0,1,0,3.2e-5
+contact,David Jimenez,performance max digital autos,1,0,1,0,3.2e-5
+contact,Erika Cardona,canal digital autos,1,0,1,0,3.2e-5
+contact,Ingrid Sierra,performance max digital hogar,1,0,1,0,3.2e-5
+contact,Ingrid Sierra,quiero un seguro,1,0,1,0,3.2e-5
+contact,Ivan pedrozo,Sin dato,1,0,1,0,3.2e-5
+contact,Ivan pedrozo,performance max digital autos,1,0,1,0,3.2e-5
+contact,Jhon Saray,Sin dato,1,0,1,0,3.2e-5
+contact,Julian Paez,quiero un seguro,1,0,1,0,3.2e-5
+contact,Nataly Chica,canal digital autos,1,0,1,0,3.2e-5
+contact,colserauto,Sin dato,1,0,1,0,3.2e-5
+contact,pmax competencia,performance max digital autos competencia,1,0,1,0,3.2e-5
+google,Bayron Acero,canal digital autos,1,0,1,0,3.2e-5
+google,Catherine Agudelo,always on seguros autos,1,0,1,0,3.2e-5
+google,Cristian Lopez,performance max digital autos,1,0,1,0,3.2e-5
+google,Cristian Lopez,performance max digital hogar,1,0,1,0,3.2e-5
+google,Daniel Obando,canal digital autos,1,0,1,0,3.2e-5
+google,Erika Cardona,canal digital autos,1,0,1,0,3.2e-5
+google,Jonny Ruz,performance max digital autos,1,0,1,0,3.2e-5
+google,Julian Paez,performance max digital autos,1,0,1,0,3.2e-5
+google,Nataly Chica,canal digital autos,1,0,1,0,3.2e-5
+google,Sin dato,canal digital autos,1,0,1,0,3.2e-5
+google,display,temas canal digital autos,1,0,1,0,3.2e-5
+google,ivan pedrozo,performance max digital autos,1,0,1,0,3.2e-5
+referidos,Cristian Lopez,Sin dato,1,0,1,0,3.2e-5
+web,David Jimenez,quiero un seguro,1,0,1,0,3.2e-5
+web,Luis Valderrama,quiero un seguro,1,0,1,0,3.2e-5
+web,pmax,performance max digital hogar,1,0,1,0,3.2e-5
